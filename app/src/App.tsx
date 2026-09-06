@@ -18,7 +18,7 @@ import { RoleGate } from './routes/RoleGate';
 export default function App() {
   return (
     <ToastProvider>
-      <BrowserRouter>
+      <BrowserRouter basename="/coins">
         <Routes>
           <Route path="/" element={<LandingPage />} />
           <Route element={<AppShell />}>
