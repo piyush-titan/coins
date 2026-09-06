@@ -1,0 +1,175 @@
+- generic [ref=f16e3]:
+  - complementary [ref=f16e4]:
+    - generic [ref=f16e5]:
+      - generic [aria-hidden] [ref=f16e7]: verified
+      - generic [ref=f16e8]:
+        - paragraph [ref=f16e9]: Gold Coin Platform
+        - paragraph [ref=f16e10]: Gold Coin Delivery Scheme
+    - navigation [ref=f16e11]:
+      - link "Dashboard" [ref=f16e12] [cursor=pointer]:
+        - /url: /dashboard
+        - generic [aria-hidden] [ref=f16e13]: dashboard
+        - text: Dashboard
+      - link "Batches" [ref=f16e14] [cursor=pointer]:
+        - /url: /batches
+        - generic [aria-hidden] [ref=f16e15]: folder_zip
+        - text: Batches
+      - link "Beneficiaries" [ref=f16e16] [cursor=pointer]:
+        - /url: /beneficiaries
+        - generic [aria-hidden] [ref=f16e17]: groups
+        - text: Beneficiaries
+      - link "Tracking & SLA" [ref=f16e18] [cursor=pointer]:
+        - /url: /tracking
+        - generic [aria-hidden] [ref=f16e19]: local_shipping
+        - text: Tracking & SLA
+      - link "Grievances" [ref=f16e20] [cursor=pointer]:
+        - /url: /grievances
+        - generic [aria-hidden] [ref=f16e21]: support_agent
+        - text: Grievances
+      - link "Reports" [ref=f16e22] [cursor=pointer]:
+        - /url: /reports
+        - generic [aria-hidden] [ref=f16e23]: summarize
+        - text: Reports
+      - link "Contact directory" [ref=f16e24] [cursor=pointer]:
+        - /url: /directory
+        - generic [aria-hidden] [ref=f16e25]: contact_phone
+        - text: Contact directory
+    - link "Settings" [ref=f16e27] [cursor=pointer]:
+      - /url: /settings
+      - generic [aria-hidden] [ref=f16e28]: settings
+      - text: Settings
+  - generic [ref=f16e29]:
+    - banner [ref=f16e30]:
+      - generic [ref=f16e31]:
+        - generic [aria-hidden]: search
+        - textbox "Search beneficiary, mobile, AWB, code…" [ref=f16e32]
+      - generic [ref=f16e33]:
+        - 'button "Viewing as: Titan Admin" [ref=f16e35]':
+          - generic [aria-hidden] [ref=f16e36]: switch_account
+          - generic [ref=f16e37]: "Viewing as:"
+          - text: Titan Admin
+          - generic [aria-hidden] [ref=f16e38]: expand_more
+        - button "Notifications" [ref=f16e40]:
+          - generic [aria-hidden] [ref=f16e41]: notifications
+        - generic [ref=f16e43]:
+          - generic [ref=f16e44]: MB
+          - generic [ref=f16e45]:
+            - paragraph [ref=f16e46]: M. Bharath Kumar
+            - paragraph [ref=f16e47]: Titan CBG Finance
+    - main [ref=f16e48]:
+      - generic [ref=f16e49]:
+        - generic [ref=f16e50]:
+          - generic [ref=f16e51]:
+            - heading "Beneficiary batches" [level=1] [ref=f16e52]
+            - paragraph [ref=f16e53]: Every batch uploaded by TN Government, from initial validation through order creation.
+          - button "Upload new batch" [ref=f16e55]:
+            - generic [aria-hidden] [ref=f16e56]: upload_file
+            - text: Upload new batch
+        - generic [ref=f16e57]:
+          - generic [ref=f16e59]:
+            - generic [aria-hidden]: search
+            - textbox "Search batch ID or file name…" [ref=f16e60]
+          - table [ref=f16e62]:
+            - rowgroup [ref=f16e63]:
+              - row [ref=f16e64]:
+                - columnheader [ref=f16e65]:
+                  - button "Batch ID" [ref=f16e66]:
+                    - text: Batch ID
+                    - generic [aria-hidden] [ref=f16e67]: unfold_more
+                - columnheader [ref=f16e68]:
+                  - button "Uploaded" [ref=f16e69]:
+                    - text: Uploaded
+                    - generic [aria-hidden] [ref=f16e70]: unfold_more
+                - columnheader "File" [ref=f16e71]
+                - columnheader [ref=f16e72]:
+                  - button "Records" [ref=f16e73]:
+                    - text: Records
+                    - generic [aria-hidden] [ref=f16e74]: unfold_more
+                - columnheader [ref=f16e75]:
+                  - button "Errors" [ref=f16e76]:
+                    - text: Errors
+                    - generic [aria-hidden] [ref=f16e77]: unfold_more
+                - columnheader "SLA window" [ref=f16e78]
+                - columnheader "Districts" [ref=f16e79]
+                - columnheader [ref=f16e80]:
+                  - button "Status" [ref=f16e81]:
+                    - text: Status
+                    - generic [aria-hidden] [ref=f16e82]: unfold_more
+            - rowgroup [ref=f16e83]:
+              - row [ref=f16e84] [cursor=pointer]:
+                - cell "BATCH-2026-06-0005" [ref=f16e85]
+                - cell "19 Aug 2026" [ref=f16e86]
+                - cell "TN_GoldCoin_Beneficiaries_June_Cycle2.xlsx" [ref=f16e87]
+                - cell "28" [ref=f16e88]
+                - cell "—" [ref=f16e89]
+                - cell "7 days" [ref=f16e90]
+                - cell "Chennai, Coimbatore, Madurai, Tiruchirappalli" [ref=f16e91]
+                - cell [ref=f16e92]:
+                  - generic [ref=f16e93]:
+                    - generic [aria-hidden] [ref=f16e94]: verified
+                    - text: Confirmed
+              - row [ref=f16e95] [cursor=pointer]:
+                - cell "BATCH-2026-07-0006" [ref=f16e96]
+                - cell "28 Aug 2026" [ref=f16e97]
+                - cell "TN_GoldCoin_Beneficiaries_RemoteBlock_July.xlsx" [ref=f16e98]
+                - cell "22" [ref=f16e99]
+                - cell "—" [ref=f16e100]
+                - cell "14 days" [ref=f16e101]
+                - cell "Nagapattinam, Ramanathapuram, The Nilgiris, Tiruvannamalai, Dindigul" [ref=f16e102]
+                - cell [ref=f16e103]:
+                  - generic [ref=f16e104]:
+                    - generic [aria-hidden] [ref=f16e105]: verified
+                    - text: Confirmed
+              - row [ref=f16e106] [cursor=pointer]:
+                - cell "BATCH-2026-08-0007" [ref=f16e107]
+                - cell "03 Sept 2026" [ref=f16e108]
+                - cell "TN_GoldCoin_Beneficiaries_August_Cycle1.xlsx" [ref=f16e109]
+                - cell "38" [ref=f16e110]
+                - cell "—" [ref=f16e111]
+                - cell "Mixed" [ref=f16e112]
+                - cell "Chennai, Coimbatore, Madurai, Nagapattinam, Ramanathapuram" [ref=f16e113]
+                - cell [ref=f16e114]:
+                  - generic [ref=f16e115]:
+                    - generic [aria-hidden] [ref=f16e116]: verified
+                    - text: Confirmed
+              - row [ref=f16e117] [cursor=pointer]:
+                - cell "BATCH-2026-08-0008" [ref=f16e118]
+                - cell "05 Sept 2026" [ref=f16e119]
+                - cell "TN_GoldCoin_Beneficiaries_August_Cycle2_DRAFT.xlsx" [ref=f16e120]
+                - cell "15" [ref=f16e121]
+                - cell "5" [ref=f16e122]
+                - cell "7 days" [ref=f16e123]
+                - cell "Coimbatore, Madurai" [ref=f16e124]
+                - cell [ref=f16e125]:
+                  - generic [ref=f16e126]:
+                    - generic [aria-hidden] [ref=f16e127]: report
+                    - text: Has errors
+              - row [ref=f16e128] [cursor=pointer]:
+                - cell "BATCH-2026-09-0009" [ref=f16e129]
+                - cell "06 Sept 2026" [ref=f16e130]
+                - cell "TN_GoldCoin_Beneficiaries_September_Cycle1.xlsx" [ref=f16e131]
+                - cell "45" [ref=f16e132]
+                - cell "—" [ref=f16e133]
+                - cell "7 days" [ref=f16e134]
+                - cell "Chennai, Salem, Vellore" [ref=f16e135]
+                - cell [ref=f16e136]:
+                  - generic [ref=f16e137]:
+                    - generic [aria-hidden] [ref=f16e138]: hourglass_top
+                    - text: Validation pending
+          - generic [ref=f16e139]:
+            - generic [ref=f16e140]: Showing 1–5 of 5
+            - generic [ref=f16e141]:
+              - generic [ref=f16e142]:
+                - text: Rows per page
+                - combobox "Rows per page" [ref=f16e143]:
+                  - option "25" [selected]
+                  - option "50"
+                  - option "100"
+              - generic [ref=f16e144]:
+                - button "Previous page" [disabled] [ref=f16e145]:
+                  - generic [aria-hidden] [ref=f16e146]: chevron_left
+                - generic [ref=f16e147]: 1 / 1
+                - button "Next page" [disabled] [ref=f16e148]:
+                  - generic [aria-hidden] [ref=f16e149]: chevron_right
+  - button "Toggle dev control panel" [ref=f16e151]:
+    - generic [aria-hidden] [ref=f16e152]: build

@@ -1,0 +1,192 @@
+- generic [ref=f18e3]:
+  - complementary [ref=f18e4]:
+    - generic [ref=f18e5]:
+      - generic [aria-hidden] [ref=f18e7]: verified
+      - generic [ref=f18e8]:
+        - paragraph [ref=f18e9]: Gold Coin Platform
+        - paragraph [ref=f18e10]: Gold Coin Delivery Scheme
+    - navigation [ref=f18e11]:
+      - link "Dashboard" [ref=f18e12] [cursor=pointer]:
+        - /url: /dashboard
+        - generic [aria-hidden] [ref=f18e13]: dashboard
+        - text: Dashboard
+      - link "Batches" [ref=f18e14] [cursor=pointer]:
+        - /url: /batches
+        - generic [aria-hidden] [ref=f18e15]: folder_zip
+        - text: Batches
+      - link "Beneficiaries" [ref=f18e16] [cursor=pointer]:
+        - /url: /beneficiaries
+        - generic [aria-hidden] [ref=f18e17]: groups
+        - text: Beneficiaries
+      - link "Tracking & SLA" [ref=f18e18] [cursor=pointer]:
+        - /url: /tracking
+        - generic [aria-hidden] [ref=f18e19]: local_shipping
+        - text: Tracking & SLA
+      - link "Grievances" [ref=f18e20] [cursor=pointer]:
+        - /url: /grievances
+        - generic [aria-hidden] [ref=f18e21]: support_agent
+        - text: Grievances
+      - link "Reports" [ref=f18e22] [cursor=pointer]:
+        - /url: /reports
+        - generic [aria-hidden] [ref=f18e23]: summarize
+        - text: Reports
+      - link "Contact directory" [ref=f18e24] [cursor=pointer]:
+        - /url: /directory
+        - generic [aria-hidden] [ref=f18e25]: contact_phone
+        - text: Contact directory
+    - link "Settings" [ref=f18e27] [cursor=pointer]:
+      - /url: /settings
+      - generic [aria-hidden] [ref=f18e28]: settings
+      - text: Settings
+  - generic [ref=f18e29]:
+    - banner [ref=f18e30]:
+      - generic [ref=f18e31]:
+        - generic [aria-hidden]: search
+        - textbox "Search beneficiary, mobile, AWB, code…" [ref=f18e32]
+      - generic [ref=f18e33]:
+        - 'button "Viewing as: Titan Admin" [ref=f18e35]':
+          - generic [aria-hidden] [ref=f18e36]: switch_account
+          - generic [ref=f18e37]: "Viewing as:"
+          - text: Titan Admin
+          - generic [aria-hidden] [ref=f18e38]: expand_more
+        - button "Notifications" [ref=f18e40]:
+          - generic [aria-hidden] [ref=f18e41]: notifications
+        - generic [ref=f18e43]:
+          - generic [ref=f18e44]: MB
+          - generic [ref=f18e45]:
+            - paragraph [ref=f18e46]: M. Bharath Kumar
+            - paragraph [ref=f18e47]: Titan CBG Finance
+    - main [ref=f18e48]:
+      - generic [ref=f18e116]:
+        - generic [ref=f18e117]:
+          - generic [ref=f18e118]:
+            - heading "Divya K" [level=1] [ref=f18e119]
+            - paragraph [ref=f18e120]: TN-GC-2026-000082 · Batch BATCH-2026-08-0007 · AWB SEQ2507025315
+          - generic [ref=f18e121]:
+            - generic [ref=f18e122]:
+              - generic [aria-hidden] [ref=f18e123]: gpp_bad
+              - text: On hold — verification failed
+            - button "Print delivery certificate" [ref=f18e124]:
+              - generic [aria-hidden] [ref=f18e125]: print
+              - text: Print delivery certificate
+        - generic [ref=f18e126]:
+          - generic [ref=f18e127]:
+            - generic [ref=f18e128]:
+              - generic [ref=f18e129]:
+                - heading "Delivery pipeline" [level=2] [ref=f18e130]
+                - generic [ref=f18e131]:
+                  - generic [aria-hidden] [ref=f18e132]: check_circle
+                  - text: 3 days left
+              - generic [ref=f18e135]:
+                - generic [ref=f18e136]:
+                  - generic [aria-hidden] [ref=f18e140]: check
+                  - generic [ref=f18e142]: Pickup requested
+                  - generic [ref=f18e143]: 03 Sept 2026, 09:27 am
+                - generic [ref=f18e144]:
+                  - generic [aria-hidden] [ref=f18e148]: check
+                  - generic [ref=f18e150]: Pickup accepted
+                  - generic [ref=f18e151]: 03 Sept 2026, 03:06 pm
+                - generic [ref=f18e152]:
+                  - generic [aria-hidden] [ref=f18e156]: check
+                  - generic [ref=f18e158]: Picked up
+                  - generic [ref=f18e159]: 04 Sept 2026, 09:16 pm
+                - generic [ref=f18e160]:
+                  - generic [aria-hidden] [ref=f18e164]: check
+                  - generic [ref=f18e166]: Reached origin hub
+                  - generic [ref=f18e167]: 05 Sept 2026, 03:14 am
+                - generic [ref=f18e168]:
+                  - generic [aria-hidden] [ref=f18e172]: check
+                  - generic [ref=f18e174]: Delivery assistant assigned
+                  - generic [ref=f18e175]: 06 Sept 2026, 09:35 am
+                - generic [ref=f18e176]:
+                  - generic [aria-hidden] [ref=f18e180]: check
+                  - generic [ref=f18e182]: Out for delivery
+                  - generic [ref=f18e183]: 06 Sept 2026, 03:08 pm
+                - generic [ref=f18e184]:
+                  - generic [aria-hidden] [ref=f18e188]: close
+                  - generic [ref=f18e190]: Delivered
+                - generic [ref=f18e191]:
+                  - generic [aria-hidden] [ref=f18e195]: radio_button_unchecked
+                  - generic [ref=f18e197]: Proof of delivery uploaded
+              - generic [ref=f18e198]:
+                - generic [aria-hidden] [ref=f18e199]: error
+                - text: On hold — identity verification failed at handover. Awaiting resolution from Sequel field operations.
+            - generic [ref=f18e200]:
+              - heading "Identity verification at handover" [level=2] [ref=f18e201]
+              - list [ref=f18e202]:
+                - listitem [ref=f18e203]:
+                  - generic [aria-hidden] [ref=f18e206]: close
+                  - generic [ref=f18e207]:
+                    - paragraph [ref=f18e208]: Unique / voucher code
+                    - paragraph [ref=f18e209]: 06 Sept 2026, 10:00 am
+                    - paragraph [ref=f18e210]: Voucher code entered did not match TN Govt records for this beneficiary.
+                - listitem [ref=f18e211]:
+                  - generic [aria-hidden] [ref=f18e214]: check
+                  - generic [ref=f18e215]:
+                    - paragraph [ref=f18e216]: Mobile OTP
+                    - paragraph [ref=f18e217]: 04 Sept 2026, 10:00 am
+                - listitem [ref=f18e218]:
+                  - generic [aria-hidden] [ref=f18e220]: check
+                  - generic [ref=f18e221]:
+                    - paragraph [ref=f18e222]: Aadhaar (last 4 digits)
+                    - paragraph [ref=f18e223]: 06 Sept 2026, 10:00 am
+            - generic [ref=f18e224]:
+              - heading "Grievance" [level=2] [ref=f18e225]
+              - paragraph [ref=f18e226]: No grievance has been filed for this beneficiary.
+          - generic [ref=f18e227]:
+            - generic [ref=f18e228]:
+              - heading "Beneficiary details" [level=2] [ref=f18e229]
+              - generic [ref=f18e230]:
+                - generic [ref=f18e231]:
+                  - term [ref=f18e232]: Primary mobile
+                  - definition [ref=f18e233]: 97287 64456
+                - generic [ref=f18e234]:
+                  - term [ref=f18e235]: Alternate mobile
+                  - definition [ref=f18e236]: 95549 06284
+                - generic [ref=f18e237]:
+                  - term [ref=f18e238]: Aadhaar (last 4)
+                  - definition [ref=f18e239]: XXXX-XXXX-8507
+                - generic [ref=f18e240]:
+                  - term [ref=f18e241]: Unique / voucher code
+                  - definition [ref=f18e242]: TNGC356876
+                - generic [ref=f18e243]:
+                  - term [ref=f18e244]: SLA window
+                  - definition [ref=f18e245]: 7 days from 03 Sept 2026
+            - generic [ref=f18e246]:
+              - heading "Delivery address" [level=2] [ref=f18e247]
+              - generic [ref=f18e248]: 37, Murugan FlatsNehru Street, West WardNear Opp. Panchayat OfficeKumbakonam, VelloreVellore — 613467
+            - generic [ref=f18e249]:
+              - heading "Status history" [level=2] [ref=f18e250]
+              - list [ref=f18e251]:
+                - listitem [ref=f18e252]:
+                  - generic [ref=f18e253]:
+                    - generic [aria-hidden] [ref=f18e254]: local_shipping
+                    - text: Out for delivery
+                  - generic [ref=f18e255]: 06 Sept 2026, 03:08 pm
+                - listitem [ref=f18e256]:
+                  - generic [ref=f18e257]:
+                    - generic [aria-hidden] [ref=f18e258]: badge
+                    - text: Assistant assigned
+                  - generic [ref=f18e259]: 06 Sept 2026, 09:35 am
+                - listitem [ref=f18e260]:
+                  - generic [ref=f18e261]:
+                    - generic [aria-hidden] [ref=f18e262]: warehouse
+                    - text: Reached origin hub
+                  - generic [ref=f18e263]: 05 Sept 2026, 03:14 am
+                - listitem [ref=f18e264]:
+                  - generic [ref=f18e265]:
+                    - generic [aria-hidden] [ref=f18e266]: inventory_2
+                    - text: Shipment picked up
+                  - generic [ref=f18e267]: 04 Sept 2026, 09:16 pm
+                - listitem [ref=f18e268]:
+                  - generic [ref=f18e269]:
+                    - generic [aria-hidden] [ref=f18e270]: task_alt
+                    - text: Pickup accepted
+                  - generic [ref=f18e271]: 03 Sept 2026, 03:06 pm
+                - listitem [ref=f18e272]:
+                  - generic [ref=f18e273]:
+                    - generic [aria-hidden] [ref=f18e274]: schedule_send
+                    - text: Pickup requested
+                  - generic [ref=f18e275]: 03 Sept 2026, 09:27 am
+  - button "Toggle dev control panel" [ref=f18e114]:
+    - generic [aria-hidden] [ref=f18e115]: build

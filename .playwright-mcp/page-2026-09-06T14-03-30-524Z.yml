@@ -1,0 +1,151 @@
+- generic [ref=f8e3]:
+  - complementary [ref=f8e4]:
+    - generic [ref=f8e5]:
+      - generic [aria-hidden] [ref=f8e7]: verified
+      - generic [ref=f8e8]:
+        - paragraph [ref=f8e9]: Gold Coin Platform
+        - paragraph [ref=f8e10]: Gold Coin Delivery Scheme
+    - navigation [ref=f8e11]:
+      - link "Dashboard" [ref=f8e12] [cursor=pointer]:
+        - /url: /dashboard
+        - generic [aria-hidden] [ref=f8e13]: dashboard
+        - text: Dashboard
+      - link "Batches" [ref=f8e14] [cursor=pointer]:
+        - /url: /batches
+        - generic [aria-hidden] [ref=f8e15]: folder_zip
+        - text: Batches
+      - link "Beneficiaries" [ref=f8e16] [cursor=pointer]:
+        - /url: /beneficiaries
+        - generic [aria-hidden] [ref=f8e17]: groups
+        - text: Beneficiaries
+      - link "Tracking & SLA" [ref=f8e18] [cursor=pointer]:
+        - /url: /tracking
+        - generic [aria-hidden] [ref=f8e19]: local_shipping
+        - text: Tracking & SLA
+      - link "Grievances" [ref=f8e20] [cursor=pointer]:
+        - /url: /grievances
+        - generic [aria-hidden] [ref=f8e21]: support_agent
+        - text: Grievances
+      - link "Reports" [ref=f8e22] [cursor=pointer]:
+        - /url: /reports
+        - generic [aria-hidden] [ref=f8e23]: summarize
+        - text: Reports
+      - link "Contact directory" [ref=f8e24] [cursor=pointer]:
+        - /url: /directory
+        - generic [aria-hidden] [ref=f8e25]: contact_phone
+        - text: Contact directory
+    - link "Settings" [ref=f8e27] [cursor=pointer]:
+      - /url: /settings
+      - generic [aria-hidden] [ref=f8e28]: settings
+      - text: Settings
+  - generic [ref=f8e29]:
+    - banner [ref=f8e30]:
+      - generic [ref=f8e31]:
+        - generic [aria-hidden]: search
+        - textbox "Search beneficiary, mobile, AWB, code…" [ref=f8e32]
+      - generic [ref=f8e33]:
+        - 'button "Viewing as: Titan Admin" [ref=f8e35]':
+          - generic [aria-hidden] [ref=f8e36]: switch_account
+          - generic [ref=f8e37]: "Viewing as:"
+          - text: Titan Admin
+          - generic [aria-hidden] [ref=f8e38]: expand_more
+        - button "Notifications" [ref=f8e40]:
+          - generic [aria-hidden] [ref=f8e41]: notifications
+        - generic [ref=f8e43]:
+          - generic [ref=f8e44]: MB
+          - generic [ref=f8e45]:
+            - paragraph [ref=f8e46]: M. Bharath Kumar
+            - paragraph [ref=f8e47]: Titan CBG Finance
+    - main [ref=f8e48]:
+      - generic [ref=f8e49]:
+        - generic [ref=f8e51]:
+          - heading "Grievances" [level=1] [ref=f8e52]
+          - paragraph [ref=f8e53]: View-only case log — resolution happens outside this platform per current scope.
+        - generic [ref=f8e54]:
+          - generic [ref=f8e55]:
+            - paragraph [ref=f8e56]: "0"
+            - paragraph [ref=f8e57]: Open
+          - generic [ref=f8e58]:
+            - paragraph [ref=f8e59]: "2"
+            - paragraph [ref=f8e60]: In progress
+          - generic [ref=f8e61]:
+            - paragraph [ref=f8e62]: "1"
+            - paragraph [ref=f8e63]: Resolved
+        - generic [ref=f8e64]:
+          - generic [ref=f8e66]:
+            - generic [aria-hidden]: search
+            - textbox "Search case ID or beneficiary…" [ref=f8e67]
+          - table [ref=f8e69]:
+            - rowgroup [ref=f8e70]:
+              - row [ref=f8e71]:
+                - columnheader [ref=f8e72]:
+                  - button "Case" [ref=f8e73]:
+                    - text: Case
+                    - generic [aria-hidden] [ref=f8e74]: unfold_more
+                - columnheader [ref=f8e75]:
+                  - button "Beneficiary" [ref=f8e76]:
+                    - text: Beneficiary
+                    - generic [aria-hidden] [ref=f8e77]: unfold_more
+                - columnheader "Category" [ref=f8e78]
+                - columnheader [ref=f8e79]:
+                  - button "Filed" [ref=f8e80]:
+                    - text: Filed
+                    - generic [aria-hidden] [ref=f8e81]: unfold_more
+                - columnheader [ref=f8e82]:
+                  - button "Status" [ref=f8e83]:
+                    - text: Status
+                    - generic [aria-hidden] [ref=f8e84]: unfold_more
+            - rowgroup [ref=f8e85]:
+              - row [ref=f8e86] [cursor=pointer]:
+                - cell "GRV-18912" [ref=f8e87]
+                - cell [ref=f8e88]:
+                  - generic [ref=f8e89]:
+                    - paragraph [ref=f8e90]: Bhavani V
+                    - paragraph [ref=f8e91]: TN-GC-2026-000025
+                - cell "Verification dispute" [ref=f8e92]
+                - cell "31 Aug 2026, 10:00 am" [ref=f8e93]
+                - cell [ref=f8e94]:
+                  - generic [ref=f8e95]:
+                    - generic [aria-hidden] [ref=f8e96]: check_circle
+                    - text: Resolved
+              - row [ref=f8e97] [cursor=pointer]:
+                - cell "GRV-90300" [ref=f8e98]
+                - cell [ref=f8e99]:
+                  - generic [ref=f8e100]:
+                    - paragraph [ref=f8e101]: Revathi Murugan
+                    - paragraph [ref=f8e102]: TN-GC-2026-000026
+                - cell "Coin not received" [ref=f8e103]
+                - cell "29 Aug 2026, 10:00 am" [ref=f8e104]
+                - cell [ref=f8e105]:
+                  - generic [ref=f8e106]:
+                    - generic [aria-hidden] [ref=f8e107]: sync
+                    - text: In progress
+              - row [ref=f8e108] [cursor=pointer]:
+                - cell "GRV-25602" [ref=f8e109]
+                - cell [ref=f8e110]:
+                  - generic [ref=f8e111]:
+                    - paragraph [ref=f8e112]: Kavya Selvam
+                    - paragraph [ref=f8e113]: TN-GC-2026-000086
+                - cell "Coin not received" [ref=f8e114]
+                - cell "05 Sept 2026, 10:00 am" [ref=f8e115]
+                - cell [ref=f8e116]:
+                  - generic [ref=f8e117]:
+                    - generic [aria-hidden] [ref=f8e118]: sync
+                    - text: In progress
+          - generic [ref=f8e119]:
+            - generic [ref=f8e120]: Showing 1–3 of 3
+            - generic [ref=f8e121]:
+              - generic [ref=f8e122]:
+                - text: Rows per page
+                - combobox "Rows per page" [ref=f8e123]:
+                  - option "25" [selected]
+                  - option "50"
+                  - option "100"
+              - generic [ref=f8e124]:
+                - button "Previous page" [disabled] [ref=f8e125]:
+                  - generic [aria-hidden] [ref=f8e126]: chevron_left
+                - generic [ref=f8e127]: 1 / 1
+                - button "Next page" [disabled] [ref=f8e128]:
+                  - generic [aria-hidden] [ref=f8e129]: chevron_right
+  - button "Toggle dev control panel" [ref=f8e131]:
+    - generic [aria-hidden] [ref=f8e132]: build

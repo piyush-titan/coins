@@ -1,0 +1,225 @@
+- generic [ref=f20e3]:
+  - complementary [ref=f20e4]:
+    - generic [ref=f20e5]:
+      - generic [aria-hidden] [ref=f20e7]: verified
+      - generic [ref=f20e8]:
+        - paragraph [ref=f20e9]: Gold Coin Platform
+        - paragraph [ref=f20e10]: Gold Coin Delivery Scheme
+    - navigation [ref=f20e11]:
+      - link "Dashboard" [ref=f20e12] [cursor=pointer]:
+        - /url: /dashboard
+        - generic [aria-hidden] [ref=f20e13]: dashboard
+        - text: Dashboard
+      - link "Batches" [ref=f20e14] [cursor=pointer]:
+        - /url: /batches
+        - generic [aria-hidden] [ref=f20e15]: folder_zip
+        - text: Batches
+      - link "Beneficiaries" [ref=f20e16] [cursor=pointer]:
+        - /url: /beneficiaries
+        - generic [aria-hidden] [ref=f20e17]: groups
+        - text: Beneficiaries
+      - link "Tracking & SLA" [ref=f20e18] [cursor=pointer]:
+        - /url: /tracking
+        - generic [aria-hidden] [ref=f20e19]: local_shipping
+        - text: Tracking & SLA
+      - link "Grievances" [ref=f20e20] [cursor=pointer]:
+        - /url: /grievances
+        - generic [aria-hidden] [ref=f20e21]: support_agent
+        - text: Grievances
+      - link "Reports" [ref=f20e22] [cursor=pointer]:
+        - /url: /reports
+        - generic [aria-hidden] [ref=f20e23]: summarize
+        - text: Reports
+      - link "Contact directory" [ref=f20e24] [cursor=pointer]:
+        - /url: /directory
+        - generic [aria-hidden] [ref=f20e25]: contact_phone
+        - text: Contact directory
+    - link "Settings" [ref=f20e27] [cursor=pointer]:
+      - /url: /settings
+      - generic [aria-hidden] [ref=f20e28]: settings
+      - text: Settings
+  - generic [ref=f20e29]:
+    - banner [ref=f20e30]:
+      - generic [ref=f20e31]:
+        - generic [aria-hidden]: search
+        - textbox "Search beneficiary, mobile, AWB, code…" [ref=f20e32]
+      - generic [ref=f20e33]:
+        - 'button "Viewing as: Titan Admin" [ref=f20e35]':
+          - generic [aria-hidden] [ref=f20e36]: switch_account
+          - generic [ref=f20e37]: "Viewing as:"
+          - text: Titan Admin
+          - generic [aria-hidden] [ref=f20e38]: expand_more
+        - button "Notifications" [ref=f20e40]:
+          - generic [aria-hidden] [ref=f20e41]: notifications
+        - generic [ref=f20e43]:
+          - generic [ref=f20e44]: MB
+          - generic [ref=f20e45]:
+            - paragraph [ref=f20e46]: M. Bharath Kumar
+            - paragraph [ref=f20e47]: Titan CBG Finance
+    - main [ref=f20e48]:
+      - generic [ref=f20e133]:
+        - generic [ref=f20e134]:
+          - generic [ref=f20e135]:
+            - heading "Revathi Murugan" [level=1] [ref=f20e136]
+            - paragraph [ref=f20e137]: TN-GC-2026-000026 · Batch BATCH-2026-06-0005 · AWB SEQ6554504336
+          - generic [ref=f20e138]:
+            - generic [ref=f20e139]:
+              - generic [aria-hidden] [ref=f20e140]: check_circle
+              - text: Delivered
+            - button "Print delivery certificate" [ref=f20e141]:
+              - generic [aria-hidden] [ref=f20e142]: print
+              - text: Print delivery certificate
+        - generic [ref=f20e143]:
+          - generic [ref=f20e144]:
+            - generic [ref=f20e145]:
+              - generic [ref=f20e146]:
+                - heading "Delivery pipeline" [level=2] [ref=f20e147]
+                - generic [ref=f20e148]:
+                  - generic [aria-hidden] [ref=f20e149]: check_circle
+                  - text: Delivered within window
+              - generic [ref=f20e152]:
+                - generic [ref=f20e153]:
+                  - generic [aria-hidden] [ref=f20e157]: check
+                  - generic [ref=f20e159]: Pickup requested
+                  - generic [ref=f20e160]: 19 Aug 2026, 09:16 am
+                - generic [ref=f20e161]:
+                  - generic [aria-hidden] [ref=f20e165]: check
+                  - generic [ref=f20e167]: Pickup accepted
+                  - generic [ref=f20e168]: 19 Aug 2026, 03:55 pm
+                - generic [ref=f20e169]:
+                  - generic [aria-hidden] [ref=f20e173]: check
+                  - generic [ref=f20e175]: Picked up
+                  - generic [ref=f20e176]: 20 Aug 2026, 09:27 pm
+                - generic [ref=f20e177]:
+                  - generic [aria-hidden] [ref=f20e181]: check
+                  - generic [ref=f20e183]: Reached origin hub
+                  - generic [ref=f20e184]: 21 Aug 2026, 03:32 am
+                - generic [ref=f20e185]:
+                  - generic [aria-hidden] [ref=f20e189]: check
+                  - generic [ref=f20e191]: Delivery assistant assigned
+                  - generic [ref=f20e192]: 22 Aug 2026, 09:53 am
+                - generic [ref=f20e193]:
+                  - generic [aria-hidden] [ref=f20e197]: check
+                  - generic [ref=f20e199]: Out for delivery
+                  - generic [ref=f20e200]: 22 Aug 2026, 03:11 pm
+                - generic [ref=f20e201]:
+                  - generic [aria-hidden] [ref=f20e205]: check
+                  - generic [ref=f20e207]: Delivered
+                  - generic [ref=f20e208]: 23 Aug 2026, 09:15 pm
+                - generic [ref=f20e209]:
+                  - generic [aria-hidden] [ref=f20e213]: radio_button_unchecked
+                  - generic [ref=f20e215]: Proof of delivery uploaded
+            - generic [ref=f20e216]:
+              - heading "Identity verification at handover" [level=2] [ref=f20e217]
+              - list [ref=f20e218]:
+                - listitem [ref=f20e219]:
+                  - generic [aria-hidden] [ref=f20e222]: check
+                  - generic [ref=f20e223]:
+                    - paragraph [ref=f20e224]: Unique / voucher code
+                    - paragraph [ref=f20e225]: 01 Sept 2026, 10:00 am
+                - listitem [ref=f20e226]:
+                  - generic [aria-hidden] [ref=f20e229]: check
+                  - generic [ref=f20e230]:
+                    - paragraph [ref=f20e231]: Mobile OTP
+                    - paragraph [ref=f20e232]: 31 Aug 2026, 10:00 am
+                - listitem [ref=f20e233]:
+                  - generic [aria-hidden] [ref=f20e235]: check
+                  - generic [ref=f20e236]:
+                    - paragraph [ref=f20e237]: Aadhaar (last 4 digits)
+                    - paragraph [ref=f20e238]: 04 Sept 2026, 10:00 am
+            - generic [ref=f20e239]:
+              - heading "Proof of delivery" [level=2] [ref=f20e240]
+              - generic [ref=f20e241]:
+                - generic [ref=f20e242]:
+                  - generic [aria-hidden] [ref=f20e243]: photo_camera
+                  - generic [ref=f20e244]: Beneficiary with coin
+                - generic [ref=f20e245]:
+                  - generic [aria-hidden] [ref=f20e246]: draw
+                  - generic [ref=f20e247]: Signature
+                - generic [ref=f20e248]:
+                  - generic [aria-hidden] [ref=f20e249]: badge
+                  - generic [ref=f20e250]: ID proof (masked)
+              - generic [ref=f20e251]:
+                - generic [ref=f20e252]:
+                  - term [ref=f20e253]: Coin serial number
+                  - definition [ref=f20e254]: GC-493346-TN
+                - generic [ref=f20e255]:
+                  - term [ref=f20e256]: Captured at
+                  - definition [ref=f20e257]: 31 Aug 2026, 10:00 am
+                - generic [ref=f20e258]:
+                  - term [ref=f20e259]: GPS coordinates
+                  - definition [ref=f20e260]: 11.6095, 78.3795
+            - generic [ref=f20e261]:
+              - heading "Grievance" [level=2] [ref=f20e262]
+              - generic [ref=f20e263]:
+                - generic [ref=f20e264]:
+                  - generic [ref=f20e265]: GRV-90300
+                  - generic [ref=f20e266]:
+                    - generic [aria-hidden] [ref=f20e267]: sync
+                    - text: In progress
+                - paragraph [ref=f20e268]: Coin not received
+                - paragraph [ref=f20e269]: Beneficiary states the coin weight looked different from what was announced at the camp.
+                - generic [ref=f20e270]: Resolution is pending. Grievance handling in this demo is view-only for both roles, matching the current scope decision.
+                - paragraph [ref=f20e271]: Filed 29 Aug 2026, 10:00 am · Last updated 04 Sept 2026, 10:00 am
+          - generic [ref=f20e272]:
+            - generic [ref=f20e273]:
+              - heading "Beneficiary details" [level=2] [ref=f20e274]
+              - generic [ref=f20e275]:
+                - generic [ref=f20e276]:
+                  - term [ref=f20e277]: Primary mobile
+                  - definition [ref=f20e278]: 94999 37135
+                - generic [ref=f20e279]:
+                  - term [ref=f20e280]: Alternate mobile
+                  - definition [ref=f20e281]: 98905 71478
+                - generic [ref=f20e282]:
+                  - term [ref=f20e283]: Aadhaar (last 4)
+                  - definition [ref=f20e284]: XXXX-XXXX-1389
+                - generic [ref=f20e285]:
+                  - term [ref=f20e286]: Unique / voucher code
+                  - definition [ref=f20e287]: TNGC737195
+                - generic [ref=f20e288]:
+                  - term [ref=f20e289]: SLA window
+                  - definition [ref=f20e290]: 7 days from 19 Aug 2026
+            - generic [ref=f20e291]:
+              - heading "Delivery address" [level=2] [ref=f20e292]
+              - generic [ref=f20e293]: 201Periyar Street, North ExtensionNear Behind Bus StandUdhagamandalam, ThanjavurThanjavur — 636478
+            - generic [ref=f20e294]:
+              - heading "Status history" [level=2] [ref=f20e295]
+              - list [ref=f20e296]:
+                - listitem [ref=f20e297]:
+                  - generic [ref=f20e298]:
+                    - generic [aria-hidden] [ref=f20e299]: check_circle
+                    - text: Delivered
+                  - generic [ref=f20e300]: 23 Aug 2026, 09:15 pm
+                - listitem [ref=f20e301]:
+                  - generic [ref=f20e302]:
+                    - generic [aria-hidden] [ref=f20e303]: local_shipping
+                    - text: Out for delivery
+                  - generic [ref=f20e304]: 22 Aug 2026, 03:11 pm
+                - listitem [ref=f20e305]:
+                  - generic [ref=f20e306]:
+                    - generic [aria-hidden] [ref=f20e307]: badge
+                    - text: Assistant assigned
+                  - generic [ref=f20e308]: 22 Aug 2026, 09:53 am
+                - listitem [ref=f20e309]:
+                  - generic [ref=f20e310]:
+                    - generic [aria-hidden] [ref=f20e311]: warehouse
+                    - text: Reached origin hub
+                  - generic [ref=f20e312]: 21 Aug 2026, 03:32 am
+                - listitem [ref=f20e313]:
+                  - generic [ref=f20e314]:
+                    - generic [aria-hidden] [ref=f20e315]: inventory_2
+                    - text: Shipment picked up
+                  - generic [ref=f20e316]: 20 Aug 2026, 09:27 pm
+                - listitem [ref=f20e317]:
+                  - generic [ref=f20e318]:
+                    - generic [aria-hidden] [ref=f20e319]: task_alt
+                    - text: Pickup accepted
+                  - generic [ref=f20e320]: 19 Aug 2026, 03:55 pm
+                - listitem [ref=f20e321]:
+                  - generic [ref=f20e322]:
+                    - generic [aria-hidden] [ref=f20e323]: schedule_send
+                    - text: Pickup requested
+                  - generic [ref=f20e324]: 19 Aug 2026, 09:16 am
+  - button "Toggle dev control panel" [ref=f20e131]:
+    - generic [aria-hidden] [ref=f20e132]: build

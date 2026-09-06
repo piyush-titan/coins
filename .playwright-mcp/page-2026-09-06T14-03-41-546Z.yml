@@ -1,0 +1,159 @@
+- generic [ref=f9e3]:
+  - complementary [ref=f9e4]:
+    - generic [ref=f9e5]:
+      - generic [aria-hidden] [ref=f9e7]: verified
+      - generic [ref=f9e8]:
+        - paragraph [ref=f9e9]: Gold Coin Platform
+        - paragraph [ref=f9e10]: Gold Coin Delivery Scheme
+    - navigation [ref=f9e11]:
+      - link "Dashboard" [ref=f9e12] [cursor=pointer]:
+        - /url: /dashboard
+        - generic [aria-hidden] [ref=f9e13]: dashboard
+        - text: Dashboard
+      - link "Batches" [ref=f9e14] [cursor=pointer]:
+        - /url: /batches
+        - generic [aria-hidden] [ref=f9e15]: folder_zip
+        - text: Batches
+      - link "Beneficiaries" [ref=f9e16] [cursor=pointer]:
+        - /url: /beneficiaries
+        - generic [aria-hidden] [ref=f9e17]: groups
+        - text: Beneficiaries
+      - link "Tracking & SLA" [ref=f9e18] [cursor=pointer]:
+        - /url: /tracking
+        - generic [aria-hidden] [ref=f9e19]: local_shipping
+        - text: Tracking & SLA
+      - link "Grievances" [ref=f9e20] [cursor=pointer]:
+        - /url: /grievances
+        - generic [aria-hidden] [ref=f9e21]: support_agent
+        - text: Grievances
+      - link "Reports" [ref=f9e22] [cursor=pointer]:
+        - /url: /reports
+        - generic [aria-hidden] [ref=f9e23]: summarize
+        - text: Reports
+      - link "Contact directory" [ref=f9e24] [cursor=pointer]:
+        - /url: /directory
+        - generic [aria-hidden] [ref=f9e25]: contact_phone
+        - text: Contact directory
+    - link "Settings" [ref=f9e27] [cursor=pointer]:
+      - /url: /settings
+      - generic [aria-hidden] [ref=f9e28]: settings
+      - text: Settings
+  - generic [ref=f9e29]:
+    - banner [ref=f9e30]:
+      - generic [ref=f9e31]:
+        - generic [aria-hidden]: search
+        - textbox "Search beneficiary, mobile, AWB, code…" [ref=f9e32]
+      - generic [ref=f9e33]:
+        - 'button "Viewing as: Titan Admin" [ref=f9e35]':
+          - generic [aria-hidden] [ref=f9e36]: switch_account
+          - generic [ref=f9e37]: "Viewing as:"
+          - text: Titan Admin
+          - generic [aria-hidden] [ref=f9e38]: expand_more
+        - button "Notifications" [ref=f9e40]:
+          - generic [aria-hidden] [ref=f9e41]: notifications
+        - generic [ref=f9e43]:
+          - generic [ref=f9e44]: MB
+          - generic [ref=f9e45]:
+            - paragraph [ref=f9e46]: M. Bharath Kumar
+            - paragraph [ref=f9e47]: Titan CBG Finance
+    - main [ref=f9e48]:
+      - generic [ref=f9e49]:
+        - generic [ref=f9e51]:
+          - heading "Reports" [level=1] [ref=f9e52]
+          - paragraph [ref=f9e53]: Titan Admin only — export presets, reverse lookup, and platform activity log.
+        - generic [ref=f9e54]:
+          - heading "Export presets" [level=2] [ref=f9e55]
+          - generic [ref=f9e56]:
+            - button [ref=f9e57]:
+              - generic [aria-hidden] [ref=f9e59]: groups
+              - generic [ref=f9e60]:
+                - paragraph [ref=f9e61]: All beneficiaries
+                - paragraph [ref=f9e62]: 86 records · CSV
+              - generic [aria-hidden] [ref=f9e63]: download
+            - button [ref=f9e64]:
+              - generic [aria-hidden] [ref=f9e66]: check_circle
+              - generic [ref=f9e67]:
+                - paragraph [ref=f9e68]: Delivered this cycle
+                - paragraph [ref=f9e69]: 31 records · CSV
+              - generic [aria-hidden] [ref=f9e70]: download
+            - button [ref=f9e71]:
+              - generic [aria-hidden] [ref=f9e73]: error
+              - generic [ref=f9e74]:
+                - paragraph [ref=f9e75]: On hold (verification / data)
+                - paragraph [ref=f9e76]: 4 records · CSV
+              - generic [aria-hidden] [ref=f9e77]: download
+            - button [ref=f9e78]:
+              - generic [aria-hidden] [ref=f9e80]: event_repeat
+              - generic [ref=f9e81]:
+                - paragraph [ref=f9e82]: Rescheduled
+                - paragraph [ref=f9e83]: 3 records · CSV
+              - generic [aria-hidden] [ref=f9e84]: download
+            - button [ref=f9e85]:
+              - generic [aria-hidden] [ref=f9e87]: support_agent
+              - generic [ref=f9e88]:
+                - paragraph [ref=f9e89]: With a grievance filed
+                - paragraph [ref=f9e90]: 3 records · CSV
+              - generic [aria-hidden] [ref=f9e91]: download
+        - generic [ref=f9e92]:
+          - heading "Reverse lookup" [level=2] [ref=f9e93]
+          - generic [ref=f9e94]:
+            - generic [ref=f9e95]:
+              - generic [aria-hidden]: search
+              - textbox "AWB, unique/voucher code, or coin serial number…" [ref=f9e96]
+            - button "Look up" [ref=f9e97]:
+              - generic [aria-hidden] [ref=f9e98]: search
+              - text: Look up
+        - generic [ref=f9e99]:
+          - heading "Activity log" [level=2] [ref=f9e100]
+          - generic [ref=f9e101]:
+            - generic [ref=f9e103]:
+              - generic [aria-hidden]: search
+              - textbox "Search activity…" [ref=f9e104]
+            - table [ref=f9e106]:
+              - rowgroup [ref=f9e107]:
+                - row [ref=f9e108]:
+                  - columnheader [ref=f9e109]:
+                    - button "When" [ref=f9e110]:
+                      - text: When
+                      - generic [aria-hidden] [ref=f9e111]: unfold_more
+                  - columnheader "Actor" [ref=f9e112]
+                  - columnheader "Action" [ref=f9e113]
+                  - columnheader "Target" [ref=f9e114]
+              - rowgroup [ref=f9e115]:
+                - row [ref=f9e116]:
+                  - cell "06 Sept 2026, 04:29 pm" [ref=f9e117]
+                  - cell "TN Govt — A. Vasantha Devi" [ref=f9e118]
+                  - cell "Exported" [ref=f9e119]
+                  - cell "All delivered this month (CSV)" [ref=f9e120]
+                - row [ref=f9e121]:
+                  - cell "04 Sept 2026, 07:29 pm" [ref=f9e122]
+                  - cell "Titan Admin — M. Bharath Kumar" [ref=f9e123]
+                  - cell "Confirmed batch" [ref=f9e124]
+                  - cell "BATCH-2026-08-0007" [ref=f9e125]
+                - row [ref=f9e126]:
+                  - cell "01 Sept 2026, 07:29 pm" [ref=f9e127]
+                  - cell "TN Govt — A. Vasantha Devi" [ref=f9e128]
+                  - cell "Viewed" [ref=f9e129]
+                  - cell "Grievance case GRV-40213" [ref=f9e130]
+                - row [ref=f9e131]:
+                  - cell "31 Aug 2026, 07:29 pm" [ref=f9e132]
+                  - cell "Titan Admin — R. Kalaiselvi" [ref=f9e133]
+                  - cell "Reverse lookup" [ref=f9e134]
+                  - cell "AWB SEQ4821093345" [ref=f9e135]
+            - generic [ref=f9e136]:
+              - generic [ref=f9e137]: Showing 1–4 of 4
+              - generic [ref=f9e138]:
+                - generic [ref=f9e139]:
+                  - text: Rows per page
+                  - combobox "Rows per page" [ref=f9e140]:
+                    - option "25" [selected]
+                    - option "50"
+                    - option "100"
+                - generic [ref=f9e141]:
+                  - button "Previous page" [disabled] [ref=f9e142]:
+                    - generic [aria-hidden] [ref=f9e143]: chevron_left
+                  - generic [ref=f9e144]: 1 / 1
+                  - button "Next page" [disabled] [ref=f9e145]:
+                    - generic [aria-hidden] [ref=f9e146]: chevron_right
+  - button "Toggle dev control panel" [ref=f9e148]:
+    - generic [aria-hidden] [ref=f9e149]: build

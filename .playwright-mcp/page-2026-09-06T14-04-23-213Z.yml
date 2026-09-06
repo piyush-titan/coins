@@ -1,0 +1,83 @@
+- generic [ref=f11e3]:
+  - complementary [ref=f11e4]:
+    - generic [ref=f11e5]:
+      - generic [aria-hidden] [ref=f11e7]: verified
+      - generic [ref=f11e8]:
+        - paragraph [ref=f11e9]: Gold Coin Platform
+        - paragraph [ref=f11e10]: Gold Coin Delivery Scheme
+    - navigation [ref=f11e11]:
+      - link "Dashboard" [ref=f11e12] [cursor=pointer]:
+        - /url: /dashboard
+        - generic [aria-hidden] [ref=f11e13]: dashboard
+        - text: Dashboard
+      - link "Batches" [ref=f11e14] [cursor=pointer]:
+        - /url: /batches
+        - generic [aria-hidden] [ref=f11e15]: folder_zip
+        - text: Batches
+      - link "Beneficiaries" [ref=f11e16] [cursor=pointer]:
+        - /url: /beneficiaries
+        - generic [aria-hidden] [ref=f11e17]: groups
+        - text: Beneficiaries
+      - link "Tracking & SLA" [ref=f11e18] [cursor=pointer]:
+        - /url: /tracking
+        - generic [aria-hidden] [ref=f11e19]: local_shipping
+        - text: Tracking & SLA
+      - link "Grievances" [ref=f11e20] [cursor=pointer]:
+        - /url: /grievances
+        - generic [aria-hidden] [ref=f11e21]: support_agent
+        - text: Grievances
+      - link "Contact directory" [ref=f11e22] [cursor=pointer]:
+        - /url: /directory
+        - generic [aria-hidden] [ref=f11e23]: contact_phone
+        - text: Contact directory
+    - link "Settings" [ref=f11e25] [cursor=pointer]:
+      - /url: /settings
+      - generic [aria-hidden] [ref=f11e26]: settings
+      - text: Settings
+  - generic [ref=f11e27]:
+    - banner [ref=f11e28]:
+      - generic [ref=f11e29]:
+        - generic [aria-hidden]: search
+        - textbox "Search beneficiary, mobile, AWB, code…" [ref=f11e30]
+      - generic [ref=f11e31]:
+        - 'button "Viewing as: TN Government" [ref=f11e33]':
+          - generic [aria-hidden] [ref=f11e34]: switch_account
+          - generic [ref=f11e35]: "Viewing as:"
+          - text: TN Government
+          - generic [aria-hidden] [ref=f11e36]: expand_more
+        - button "Notifications" [ref=f11e38]:
+          - generic [aria-hidden] [ref=f11e39]: notifications
+        - generic [ref=f11e41]:
+          - generic [ref=f11e42]: AV
+          - generic [ref=f11e43]:
+            - paragraph [ref=f11e44]: A. Vasantha Devi
+            - paragraph [ref=f11e45]: TN Govt, Social Welfare
+    - main [ref=f11e46]:
+      - generic [ref=f11e47]:
+        - generic [ref=f11e49]:
+          - heading "Settings" [level=1] [ref=f11e50]
+          - paragraph [ref=f11e51]: Profile, accessibility, and platform information.
+        - generic [ref=f11e52]:
+          - heading "Profile" [level=2] [ref=f11e53]
+          - generic [ref=f11e54]:
+            - generic [ref=f11e55]: AV
+            - generic [ref=f11e56]:
+              - paragraph [ref=f11e57]: A. Vasantha Devi
+              - paragraph [ref=f11e58]: Deputy Director, Social Welfare Dept.
+              - paragraph [ref=f11e59]: Government of Tamil Nadu
+          - paragraph [ref=f11e60]: Use the "Viewing as" switch in the top bar to preview the other role — this demo has no real authentication.
+        - generic [ref=f11e61]:
+          - heading "Accessibility" [level=2] [ref=f11e62]
+          - generic [ref=f11e63]:
+            - generic [ref=f11e64]:
+              - generic [ref=f11e65]: Reduce motion
+              - generic [ref=f11e66]: Turns off count-up numbers and entrance animations across the platform.
+            - switch "Reduce motion Turns off count-up numbers and entrance animations across the platform." [ref=f11e67]
+        - generic [ref=f11e69]:
+          - heading "About this platform" [level=2] [ref=f11e70]
+          - paragraph [ref=f11e71]: The Gold Coin Delivery Platform tracks the Tamil Nadu Government Gold Coin Scheme, coordinating delivery between Titan Company Limited (coin fulfilment), Sequel (last-mile logistics), and the TN Government (Social Welfare Department). This build is a front-end demo populated with realistic sample data — no live backend or API integration is connected yet.
+          - generic [ref=f11e72]:
+            - generic [aria-hidden] [ref=f11e73]: info
+            - text: Version 1.0 · Demo build
+  - button "Toggle dev control panel" [ref=f11e75]:
+    - generic [aria-hidden] [ref=f11e76]: build

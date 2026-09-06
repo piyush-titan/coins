@@ -1,0 +1,151 @@
+- generic [ref=f16e3]:
+  - complementary [ref=f16e4]:
+    - generic [ref=f16e5]:
+      - generic [aria-hidden] [ref=f16e7]: verified
+      - generic [ref=f16e8]:
+        - paragraph [ref=f16e9]: Gold Coin Platform
+        - paragraph [ref=f16e10]: Gold Coin Delivery Scheme
+    - navigation [ref=f16e11]:
+      - link "Dashboard" [ref=f16e12] [cursor=pointer]:
+        - /url: /dashboard
+        - generic [aria-hidden] [ref=f16e13]: dashboard
+        - text: Dashboard
+      - link "Batches" [ref=f16e14] [cursor=pointer]:
+        - /url: /batches
+        - generic [aria-hidden] [ref=f16e15]: folder_zip
+        - text: Batches
+      - link "Beneficiaries" [ref=f16e16] [cursor=pointer]:
+        - /url: /beneficiaries
+        - generic [aria-hidden] [ref=f16e17]: groups
+        - text: Beneficiaries
+      - link "Tracking & SLA" [ref=f16e18] [cursor=pointer]:
+        - /url: /tracking
+        - generic [aria-hidden] [ref=f16e19]: local_shipping
+        - text: Tracking & SLA
+      - link "Grievances" [ref=f16e20] [cursor=pointer]:
+        - /url: /grievances
+        - generic [aria-hidden] [ref=f16e21]: support_agent
+        - text: Grievances
+      - link "Reports" [ref=f16e22] [cursor=pointer]:
+        - /url: /reports
+        - generic [aria-hidden] [ref=f16e23]: summarize
+        - text: Reports
+      - link "Contact directory" [ref=f16e24] [cursor=pointer]:
+        - /url: /directory
+        - generic [aria-hidden] [ref=f16e25]: contact_phone
+        - text: Contact directory
+    - link "Settings" [ref=f16e27] [cursor=pointer]:
+      - /url: /settings
+      - generic [aria-hidden] [ref=f16e28]: settings
+      - text: Settings
+  - generic [ref=f16e29]:
+    - banner [ref=f16e30]:
+      - generic [ref=f16e31]:
+        - generic [aria-hidden]: search
+        - textbox "Search beneficiary, mobile, AWB, code…" [ref=f16e32]
+      - generic [ref=f16e33]:
+        - 'button "Viewing as: Titan Admin" [ref=f16e35]':
+          - generic [aria-hidden] [ref=f16e36]: switch_account
+          - generic [ref=f16e37]: "Viewing as:"
+          - text: Titan Admin
+          - generic [aria-hidden] [ref=f16e38]: expand_more
+        - button "Notifications" [ref=f16e40]:
+          - generic [aria-hidden] [ref=f16e41]: notifications
+        - generic [ref=f16e43]:
+          - generic [ref=f16e44]: MB
+          - generic [ref=f16e45]:
+            - paragraph [ref=f16e46]: M. Bharath Kumar
+            - paragraph [ref=f16e47]: Titan CBG Finance
+    - main [ref=f16e48]:
+      - generic [ref=f16e153]:
+        - generic [ref=f16e154]:
+          - generic [ref=f16e155]:
+            - heading "BATCH-2026-08-0008" [level=1] [ref=f16e156]
+            - paragraph [ref=f16e157]: Uploaded 05 Sept 2026, 10:00 am · TN_GoldCoin_Beneficiaries_August_Cycle2_DRAFT.xlsx
+          - generic [ref=f16e159]:
+            - generic [aria-hidden] [ref=f16e160]: report
+            - text: Has errors
+        - generic [ref=f16e161]:
+          - generic [ref=f16e162]:
+            - paragraph [ref=f16e163]: Total records
+            - paragraph [ref=f16e164]: "15"
+          - generic [ref=f16e165]:
+            - paragraph [ref=f16e166]: Validation errors
+            - paragraph [ref=f16e167]: "5"
+          - generic [ref=f16e168]:
+            - paragraph [ref=f16e169]: SLA window
+            - paragraph [ref=f16e170]: 7d
+          - generic [ref=f16e171]:
+            - paragraph [ref=f16e172]: Districts
+            - paragraph [ref=f16e173]: Coimbatore, Madurai
+        - generic [ref=f16e174]:
+          - paragraph [ref=f16e175]:
+            - generic [aria-hidden] [ref=f16e176]: error
+            - text: This batch cannot be confirmed until every error is corrected
+          - paragraph [ref=f16e177]: Correct the source file and re-upload — this demo does not support inline row editing, matching the real platform's re-upload-only correction flow.
+          - generic [ref=f16e179]:
+            - table [ref=f16e181]:
+              - rowgroup [ref=f16e182]:
+                - row [ref=f16e183]:
+                  - columnheader [ref=f16e184]:
+                    - button "Row" [ref=f16e185]:
+                      - text: Row
+                      - generic [aria-hidden] [ref=f16e186]: unfold_more
+                  - columnheader "Beneficiary" [ref=f16e187]
+                  - columnheader "Field" [ref=f16e188]
+                  - columnheader "Issue" [ref=f16e189]
+              - rowgroup [ref=f16e190]:
+                - row [ref=f16e191]:
+                  - cell "#4" [ref=f16e192]
+                  - cell "Kavitha M" [ref=f16e194]
+                  - cell "Primary Mobile Number" [ref=f16e195]
+                  - cell "Must be exactly 10 digits — found 9 digits." [ref=f16e196]
+                - row [ref=f16e197]:
+                  - cell "#7" [ref=f16e198]
+                  - cell "Sundar R" [ref=f16e200]
+                  - cell "Pincode" [ref=f16e201]
+                  - cell "Must be exactly 6 digits — found \"60003\"." [ref=f16e202]
+                - row [ref=f16e203]:
+                  - cell "#9" [ref=f16e204]
+                  - cell "—" [ref=f16e206]
+                  - cell "Receiver Name" [ref=f16e207]
+                  - cell "Mandatory field is empty." [ref=f16e208]
+                - row [ref=f16e209]:
+                  - cell "#9" [ref=f16e210]
+                  - cell "—" [ref=f16e212]
+                  - cell "Unique/Voucher Code" [ref=f16e213]
+                  - cell "Duplicate of row 3 within this file — codes must be unique per beneficiary." [ref=f16e214]
+                - row [ref=f16e215]:
+                  - cell "#12" [ref=f16e216]
+                  - cell "Prakash V" [ref=f16e218]
+                  - cell "Identity Verification (Aadhaar last 4)" [ref=f16e219]
+                  - cell "Must be exactly 4 digits — found letters." [ref=f16e220]
+            - generic [ref=f16e221]:
+              - generic [ref=f16e222]: Showing 1–5 of 5
+              - generic [ref=f16e223]:
+                - generic [ref=f16e224]:
+                  - text: Rows per page
+                  - combobox "Rows per page" [ref=f16e225]:
+                    - option "25" [selected]
+                    - option "50"
+                    - option "100"
+                - generic [ref=f16e226]:
+                  - button "Previous page" [disabled] [ref=f16e227]:
+                    - generic [aria-hidden] [ref=f16e228]: chevron_left
+                  - generic [ref=f16e229]: 1 / 1
+                  - button "Next page" [disabled] [ref=f16e230]:
+                    - generic [aria-hidden] [ref=f16e231]: chevron_right
+          - button "Re-upload corrected file" [ref=f16e232]:
+            - generic [aria-hidden] [ref=f16e233]: upload_file
+            - text: Re-upload corrected file
+        - heading "Beneficiaries in this batch" [level=2] [ref=f16e234]
+        - generic [ref=f16e235]:
+          - generic [ref=f16e237]:
+            - generic [aria-hidden]: search
+            - textbox "Search beneficiary…" [ref=f16e238]
+          - generic [ref=f16e240]:
+            - generic [aria-hidden] [ref=f16e242]: group_off
+            - heading "No orders yet" [level=3] [ref=f16e243]
+            - paragraph [ref=f16e244]: Orders appear once this batch is confirmed.
+  - button "Toggle dev control panel" [ref=f16e151]:
+    - generic [aria-hidden] [ref=f16e152]: build

@@ -1,0 +1,573 @@
+- generic [ref=f4e3]:
+  - complementary [ref=f4e4]:
+    - generic [ref=f4e5]:
+      - generic [aria-hidden] [ref=f4e7]: verified
+      - generic [ref=f4e8]:
+        - paragraph [ref=f4e9]: Gold Coin Platform
+        - paragraph [ref=f4e10]: Gold Coin Delivery Scheme
+    - navigation [ref=f4e11]:
+      - link "Dashboard" [ref=f4e12] [cursor=pointer]:
+        - /url: /dashboard
+        - generic [aria-hidden] [ref=f4e13]: dashboard
+        - text: Dashboard
+      - link "Batches" [ref=f4e14] [cursor=pointer]:
+        - /url: /batches
+        - generic [aria-hidden] [ref=f4e15]: folder_zip
+        - text: Batches
+      - link "Beneficiaries" [ref=f4e16] [cursor=pointer]:
+        - /url: /beneficiaries
+        - generic [aria-hidden] [ref=f4e17]: groups
+        - text: Beneficiaries
+      - link "Tracking & SLA" [ref=f4e18] [cursor=pointer]:
+        - /url: /tracking
+        - generic [aria-hidden] [ref=f4e19]: local_shipping
+        - text: Tracking & SLA
+      - link "Grievances" [ref=f4e20] [cursor=pointer]:
+        - /url: /grievances
+        - generic [aria-hidden] [ref=f4e21]: support_agent
+        - text: Grievances
+      - link "Reports" [ref=f4e22] [cursor=pointer]:
+        - /url: /reports
+        - generic [aria-hidden] [ref=f4e23]: summarize
+        - text: Reports
+      - link "Contact directory" [ref=f4e24] [cursor=pointer]:
+        - /url: /directory
+        - generic [aria-hidden] [ref=f4e25]: contact_phone
+        - text: Contact directory
+    - link "Settings" [ref=f4e27] [cursor=pointer]:
+      - /url: /settings
+      - generic [aria-hidden] [ref=f4e28]: settings
+      - text: Settings
+  - generic [ref=f4e29]:
+    - banner [ref=f4e30]:
+      - generic [ref=f4e31]:
+        - generic [aria-hidden]: search
+        - textbox "Search beneficiary, mobile, AWB, code…" [ref=f4e32]
+      - generic [ref=f4e33]:
+        - 'button "Viewing as: Titan Admin" [ref=f4e35]':
+          - generic [aria-hidden] [ref=f4e36]: switch_account
+          - generic [ref=f4e37]: "Viewing as:"
+          - text: Titan Admin
+          - generic [aria-hidden] [ref=f4e38]: expand_more
+        - button "Notifications" [ref=f4e40]:
+          - generic [aria-hidden] [ref=f4e41]: notifications
+        - generic [ref=f4e43]:
+          - generic [ref=f4e44]: MB
+          - generic [ref=f4e45]:
+            - paragraph [ref=f4e46]: M. Bharath Kumar
+            - paragraph [ref=f4e47]: Titan CBG Finance
+    - main [ref=f4e48]:
+      - generic [ref=f4e49]:
+        - generic [ref=f4e51]:
+          - heading "Beneficiaries" [level=1] [ref=f4e52]
+          - paragraph [ref=f4e53]: 86 beneficiaries across 5 batches, statewide.
+        - generic [ref=f4e54]:
+          - generic [ref=f4e55]:
+            - generic [ref=f4e56]:
+              - generic [aria-hidden]: search
+              - textbox "Search name, mobile, order ID, AWB…" [ref=f4e57]
+            - generic [ref=f4e58]:
+              - generic [ref=f4e59]: Status
+              - combobox "Status" [ref=f4e60]:
+                - option "All statuses" [selected]
+                - option "Pickup requested"
+                - option "Pickup accepted"
+                - option "Shipment picked up"
+                - option "Reached origin hub"
+                - option "Assistant assigned"
+                - option "Out for delivery"
+                - option "Delivered"
+                - option "PoD uploaded"
+                - option "On hold — verification failed"
+                - option "On hold — data error"
+                - option "Rescheduled"
+                - option "Cancelled"
+            - generic [ref=f4e61]:
+              - generic [ref=f4e62]: SLA
+              - combobox "SLA" [ref=f4e63]:
+                - option "All SLA states" [selected]
+                - option "Within SLA"
+                - option "At risk"
+                - option "Breached"
+            - generic [ref=f4e64]:
+              - generic [ref=f4e65]: District
+              - combobox "District" [ref=f4e66]:
+                - option "All districts" [selected]
+                - option "Chennai"
+                - option "Coimbatore"
+                - option "Dindigul"
+                - option "Erode"
+                - option "Madurai"
+                - option "Nagapattinam"
+                - option "Ramanathapuram"
+                - option "Salem"
+                - option "Thanjavur"
+                - option "The Nilgiris"
+                - option "Tiruchirappalli"
+                - option "Tiruvannamalai"
+                - option "Vellore"
+          - table [ref=f4e68]:
+            - rowgroup [ref=f4e69]:
+              - row [ref=f4e70]:
+                - columnheader [ref=f4e71]:
+                  - button "Beneficiary" [ref=f4e72]:
+                    - text: Beneficiary
+                    - generic [aria-hidden] [ref=f4e73]: unfold_more
+                - columnheader "Mobile" [ref=f4e74]
+                - columnheader [ref=f4e75]:
+                  - button "District" [ref=f4e76]:
+                    - text: District
+                    - generic [aria-hidden] [ref=f4e77]: unfold_more
+                - columnheader [ref=f4e78]:
+                  - button "Batch" [ref=f4e79]:
+                    - text: Batch
+                    - generic [aria-hidden] [ref=f4e80]: unfold_more
+                - columnheader [ref=f4e81]:
+                  - button "Delivery status" [ref=f4e82]:
+                    - text: Delivery status
+                    - generic [aria-hidden] [ref=f4e83]: unfold_more
+                - columnheader "SLA" [ref=f4e84]
+                - columnheader "Grievance" [ref=f4e85]
+            - rowgroup [ref=f4e86]:
+              - row [ref=f4e87] [cursor=pointer]:
+                - cell [ref=f4e88]:
+                  - generic [ref=f4e89]:
+                    - paragraph [ref=f4e90]: Chitra Devi
+                    - paragraph [ref=f4e91]: TN-GC-2026-000001
+                - cell "97607 19216" [ref=f4e92]
+                - cell "Chennai" [ref=f4e93]
+                - cell "BATCH-2026-06-0005" [ref=f4e94]
+                - cell [ref=f4e95]:
+                  - generic [ref=f4e96]:
+                    - generic [aria-hidden] [ref=f4e97]: check_circle
+                    - text: Delivered
+                - cell [ref=f4e98]:
+                  - generic [ref=f4e99]:
+                    - generic [aria-hidden] [ref=f4e100]: check_circle
+                    - text: Delivered within window
+                - cell "—" [ref=f4e101]
+              - row [ref=f4e102] [cursor=pointer]:
+                - cell [ref=f4e103]:
+                  - generic [ref=f4e104]:
+                    - paragraph [ref=f4e105]: Bhavani V
+                    - paragraph [ref=f4e106]: TN-GC-2026-000002
+                - cell "97273 73276" [ref=f4e107]
+                - cell "Thanjavur" [ref=f4e108]
+                - cell "BATCH-2026-06-0005" [ref=f4e109]
+                - cell [ref=f4e110]:
+                  - generic [ref=f4e111]:
+                    - generic [aria-hidden] [ref=f4e112]: verified
+                    - text: PoD uploaded
+                - cell [ref=f4e113]:
+                  - generic [ref=f4e114]:
+                    - generic [aria-hidden] [ref=f4e115]: check_circle
+                    - text: Delivered within window
+                - cell "—" [ref=f4e116]
+              - row [ref=f4e117] [cursor=pointer]:
+                - cell [ref=f4e118]:
+                  - generic [ref=f4e119]:
+                    - paragraph [ref=f4e120]: Arun Kumari
+                    - paragraph [ref=f4e121]: TN-GC-2026-000003
+                - cell "98934 95996" [ref=f4e122]
+                - cell "Madurai" [ref=f4e123]
+                - cell "BATCH-2026-06-0005" [ref=f4e124]
+                - cell [ref=f4e125]:
+                  - generic [ref=f4e126]:
+                    - generic [aria-hidden] [ref=f4e127]: check_circle
+                    - text: Delivered
+                - cell [ref=f4e128]:
+                  - generic [ref=f4e129]:
+                    - generic [aria-hidden] [ref=f4e130]: check_circle
+                    - text: Delivered within window
+                - cell "—" [ref=f4e131]
+              - row [ref=f4e132] [cursor=pointer]:
+                - cell [ref=f4e133]:
+                  - generic [ref=f4e134]:
+                    - paragraph [ref=f4e135]: Karthik V
+                    - paragraph [ref=f4e136]: TN-GC-2026-000004
+                - cell "95489 13715" [ref=f4e137]
+                - cell "Thanjavur" [ref=f4e138]
+                - cell "BATCH-2026-06-0005" [ref=f4e139]
+                - cell [ref=f4e140]:
+                  - generic [ref=f4e141]:
+                    - generic [aria-hidden] [ref=f4e142]: verified
+                    - text: PoD uploaded
+                - cell [ref=f4e143]:
+                  - generic [ref=f4e144]:
+                    - generic [aria-hidden] [ref=f4e145]: check_circle
+                    - text: Delivered within window
+                - cell "—" [ref=f4e146]
+              - row [ref=f4e147] [cursor=pointer]:
+                - cell [ref=f4e148]:
+                  - generic [ref=f4e149]:
+                    - paragraph [ref=f4e150]: Arun Selvam
+                    - paragraph [ref=f4e151]: TN-GC-2026-000005
+                - cell "98046 61780" [ref=f4e152]
+                - cell "Thanjavur" [ref=f4e153]
+                - cell "BATCH-2026-06-0005" [ref=f4e154]
+                - cell [ref=f4e155]:
+                  - generic [ref=f4e156]:
+                    - generic [aria-hidden] [ref=f4e157]: verified
+                    - text: PoD uploaded
+                - cell [ref=f4e158]:
+                  - generic [ref=f4e159]:
+                    - generic [aria-hidden] [ref=f4e160]: check_circle
+                    - text: Delivered within window
+                - cell "—" [ref=f4e161]
+              - row [ref=f4e162] [cursor=pointer]:
+                - cell [ref=f4e163]:
+                  - generic [ref=f4e164]:
+                    - paragraph [ref=f4e165]: Divya Priya
+                    - paragraph [ref=f4e166]: TN-GC-2026-000006
+                - cell "97334 03185" [ref=f4e167]
+                - cell "Chennai" [ref=f4e168]
+                - cell "BATCH-2026-06-0005" [ref=f4e169]
+                - cell [ref=f4e170]:
+                  - generic [ref=f4e171]:
+                    - generic [aria-hidden] [ref=f4e172]: check_circle
+                    - text: Delivered
+                - cell [ref=f4e173]:
+                  - generic [ref=f4e174]:
+                    - generic [aria-hidden] [ref=f4e175]: check_circle
+                    - text: Delivered within window
+                - cell "—" [ref=f4e176]
+              - row [ref=f4e177] [cursor=pointer]:
+                - cell [ref=f4e178]:
+                  - generic [ref=f4e179]:
+                    - paragraph [ref=f4e180]: Revathi Priya
+                    - paragraph [ref=f4e181]: TN-GC-2026-000007
+                - cell "96924 64937" [ref=f4e182]
+                - cell "Salem" [ref=f4e183]
+                - cell "BATCH-2026-06-0005" [ref=f4e184]
+                - cell [ref=f4e185]:
+                  - generic [ref=f4e186]:
+                    - generic [aria-hidden] [ref=f4e187]: verified
+                    - text: PoD uploaded
+                - cell [ref=f4e188]:
+                  - generic [ref=f4e189]:
+                    - generic [aria-hidden] [ref=f4e190]: check_circle
+                    - text: Delivered within window
+                - cell "—" [ref=f4e191]
+              - row [ref=f4e192] [cursor=pointer]:
+                - cell [ref=f4e193]:
+                  - generic [ref=f4e194]:
+                    - paragraph [ref=f4e195]: Meena V
+                    - paragraph [ref=f4e196]: TN-GC-2026-000008
+                - cell "94373 50397" [ref=f4e197]
+                - cell "Salem" [ref=f4e198]
+                - cell "BATCH-2026-06-0005" [ref=f4e199]
+                - cell [ref=f4e200]:
+                  - generic [ref=f4e201]:
+                    - generic [aria-hidden] [ref=f4e202]: check_circle
+                    - text: Delivered
+                - cell [ref=f4e203]:
+                  - generic [ref=f4e204]:
+                    - generic [aria-hidden] [ref=f4e205]: check_circle
+                    - text: Delivered within window
+                - cell "—" [ref=f4e206]
+              - row [ref=f4e207] [cursor=pointer]:
+                - cell [ref=f4e208]:
+                  - generic [ref=f4e209]:
+                    - paragraph [ref=f4e210]: Swetha Kumari
+                    - paragraph [ref=f4e211]: TN-GC-2026-000009
+                - cell "98183 51192" [ref=f4e212]
+                - cell "Salem" [ref=f4e213]
+                - cell "BATCH-2026-06-0005" [ref=f4e214]
+                - cell [ref=f4e215]:
+                  - generic [ref=f4e216]:
+                    - generic [aria-hidden] [ref=f4e217]: check_circle
+                    - text: Delivered
+                - cell [ref=f4e218]:
+                  - generic [ref=f4e219]:
+                    - generic [aria-hidden] [ref=f4e220]: check_circle
+                    - text: Delivered within window
+                - cell "—" [ref=f4e221]
+              - row [ref=f4e222] [cursor=pointer]:
+                - cell [ref=f4e223]:
+                  - generic [ref=f4e224]:
+                    - paragraph [ref=f4e225]: Vignesh M
+                    - paragraph [ref=f4e226]: TN-GC-2026-000010
+                - cell "97422 12848" [ref=f4e227]
+                - cell "Coimbatore" [ref=f4e228]
+                - cell "BATCH-2026-06-0005" [ref=f4e229]
+                - cell [ref=f4e230]:
+                  - generic [ref=f4e231]:
+                    - generic [aria-hidden] [ref=f4e232]: verified
+                    - text: PoD uploaded
+                - cell [ref=f4e233]:
+                  - generic [ref=f4e234]:
+                    - generic [aria-hidden] [ref=f4e235]: check_circle
+                    - text: Delivered within window
+                - cell "—" [ref=f4e236]
+              - row [ref=f4e237] [cursor=pointer]:
+                - cell [ref=f4e238]:
+                  - generic [ref=f4e239]:
+                    - paragraph [ref=f4e240]: Meena Priya
+                    - paragraph [ref=f4e241]: TN-GC-2026-000011
+                - cell "97175 42995" [ref=f4e242]
+                - cell "Coimbatore" [ref=f4e243]
+                - cell "BATCH-2026-06-0005" [ref=f4e244]
+                - cell [ref=f4e245]:
+                  - generic [ref=f4e246]:
+                    - generic [aria-hidden] [ref=f4e247]: verified
+                    - text: PoD uploaded
+                - cell [ref=f4e248]:
+                  - generic [ref=f4e249]:
+                    - generic [aria-hidden] [ref=f4e250]: check_circle
+                    - text: Delivered within window
+                - cell "—" [ref=f4e251]
+              - row [ref=f4e252] [cursor=pointer]:
+                - cell [ref=f4e253]:
+                  - generic [ref=f4e254]:
+                    - paragraph [ref=f4e255]: Yamuna Murugan
+                    - paragraph [ref=f4e256]: TN-GC-2026-000012
+                - cell "98894 81509" [ref=f4e257]
+                - cell "Chennai" [ref=f4e258]
+                - cell "BATCH-2026-06-0005" [ref=f4e259]
+                - cell [ref=f4e260]:
+                  - generic [ref=f4e261]:
+                    - generic [aria-hidden] [ref=f4e262]: check_circle
+                    - text: Delivered
+                - cell [ref=f4e263]:
+                  - generic [ref=f4e264]:
+                    - generic [aria-hidden] [ref=f4e265]: check_circle
+                    - text: Delivered within window
+                - cell "—" [ref=f4e266]
+              - row [ref=f4e267] [cursor=pointer]:
+                - cell [ref=f4e268]:
+                  - generic [ref=f4e269]:
+                    - paragraph [ref=f4e270]: Tamil Selvi Murugan
+                    - paragraph [ref=f4e271]: TN-GC-2026-000013
+                - cell "98029 38479" [ref=f4e272]
+                - cell "Thanjavur" [ref=f4e273]
+                - cell "BATCH-2026-06-0005" [ref=f4e274]
+                - cell [ref=f4e275]:
+                  - generic [ref=f4e276]:
+                    - generic [aria-hidden] [ref=f4e277]: check_circle
+                    - text: Delivered
+                - cell [ref=f4e278]:
+                  - generic [ref=f4e279]:
+                    - generic [aria-hidden] [ref=f4e280]: check_circle
+                    - text: Delivered within window
+                - cell "—" [ref=f4e281]
+              - row [ref=f4e282] [cursor=pointer]:
+                - cell [ref=f4e283]:
+                  - generic [ref=f4e284]:
+                    - paragraph [ref=f4e285]: Swetha Priya
+                    - paragraph [ref=f4e286]: TN-GC-2026-000014
+                - cell "97970 00789" [ref=f4e287]
+                - cell "Vellore" [ref=f4e288]
+                - cell "BATCH-2026-06-0005" [ref=f4e289]
+                - cell [ref=f4e290]:
+                  - generic [ref=f4e291]:
+                    - generic [aria-hidden] [ref=f4e292]: check_circle
+                    - text: Delivered
+                - cell [ref=f4e293]:
+                  - generic [ref=f4e294]:
+                    - generic [aria-hidden] [ref=f4e295]: check_circle
+                    - text: Delivered within window
+                - cell "—" [ref=f4e296]
+              - row [ref=f4e297] [cursor=pointer]:
+                - cell [ref=f4e298]:
+                  - generic [ref=f4e299]:
+                    - paragraph [ref=f4e300]: Karthik V
+                    - paragraph [ref=f4e301]: TN-GC-2026-000015
+                - cell "95250 07579" [ref=f4e302]
+                - cell "Vellore" [ref=f4e303]
+                - cell "BATCH-2026-06-0005" [ref=f4e304]
+                - cell [ref=f4e305]:
+                  - generic [ref=f4e306]:
+                    - generic [aria-hidden] [ref=f4e307]: verified
+                    - text: PoD uploaded
+                - cell [ref=f4e308]:
+                  - generic [ref=f4e309]:
+                    - generic [aria-hidden] [ref=f4e310]: check_circle
+                    - text: Delivered within window
+                - cell "—" [ref=f4e311]
+              - row [ref=f4e312] [cursor=pointer]:
+                - cell [ref=f4e313]:
+                  - generic [ref=f4e314]:
+                    - paragraph [ref=f4e315]: Karthik K
+                    - paragraph [ref=f4e316]: TN-GC-2026-000016
+                - cell "97347 30230" [ref=f4e317]
+                - cell "Erode" [ref=f4e318]
+                - cell "BATCH-2026-06-0005" [ref=f4e319]
+                - cell [ref=f4e320]:
+                  - generic [ref=f4e321]:
+                    - generic [aria-hidden] [ref=f4e322]: verified
+                    - text: PoD uploaded
+                - cell [ref=f4e323]:
+                  - generic [ref=f4e324]:
+                    - generic [aria-hidden] [ref=f4e325]: check_circle
+                    - text: Delivered within window
+                - cell "—" [ref=f4e326]
+              - row [ref=f4e327] [cursor=pointer]:
+                - cell [ref=f4e328]:
+                  - generic [ref=f4e329]:
+                    - paragraph [ref=f4e330]: Deepika Priya
+                    - paragraph [ref=f4e331]: TN-GC-2026-000017
+                - cell "98849 31049" [ref=f4e332]
+                - cell "Salem" [ref=f4e333]
+                - cell "BATCH-2026-06-0005" [ref=f4e334]
+                - cell [ref=f4e335]:
+                  - generic [ref=f4e336]:
+                    - generic [aria-hidden] [ref=f4e337]: verified
+                    - text: PoD uploaded
+                - cell [ref=f4e338]:
+                  - generic [ref=f4e339]:
+                    - generic [aria-hidden] [ref=f4e340]: check_circle
+                    - text: Delivered within window
+                - cell "—" [ref=f4e341]
+              - row [ref=f4e342] [cursor=pointer]:
+                - cell [ref=f4e343]:
+                  - generic [ref=f4e344]:
+                    - paragraph [ref=f4e345]: Jeeva Priya
+                    - paragraph [ref=f4e346]: TN-GC-2026-000018
+                - cell "98605 11773" [ref=f4e347]
+                - cell "Coimbatore" [ref=f4e348]
+                - cell "BATCH-2026-06-0005" [ref=f4e349]
+                - cell [ref=f4e350]:
+                  - generic [ref=f4e351]:
+                    - generic [aria-hidden] [ref=f4e352]: check_circle
+                    - text: Delivered
+                - cell [ref=f4e353]:
+                  - generic [ref=f4e354]:
+                    - generic [aria-hidden] [ref=f4e355]: check_circle
+                    - text: Delivered within window
+                - cell "—" [ref=f4e356]
+              - row [ref=f4e357] [cursor=pointer]:
+                - cell [ref=f4e358]:
+                  - generic [ref=f4e359]:
+                    - paragraph [ref=f4e360]: Swetha S
+                    - paragraph [ref=f4e361]: TN-GC-2026-000019
+                - cell "96790 17499" [ref=f4e362]
+                - cell "Tiruchirappalli" [ref=f4e363]
+                - cell "BATCH-2026-06-0005" [ref=f4e364]
+                - cell [ref=f4e365]:
+                  - generic [ref=f4e366]:
+                    - generic [aria-hidden] [ref=f4e367]: check_circle
+                    - text: Delivered
+                - cell [ref=f4e368]:
+                  - generic [ref=f4e369]:
+                    - generic [aria-hidden] [ref=f4e370]: check_circle
+                    - text: Delivered within window
+                - cell "—" [ref=f4e371]
+              - row [ref=f4e372] [cursor=pointer]:
+                - cell [ref=f4e373]:
+                  - generic [ref=f4e374]:
+                    - paragraph [ref=f4e375]: Kavya Priya
+                    - paragraph [ref=f4e376]: TN-GC-2026-000020
+                - cell "95628 31586" [ref=f4e377]
+                - cell "Salem" [ref=f4e378]
+                - cell "BATCH-2026-06-0005" [ref=f4e379]
+                - cell [ref=f4e380]:
+                  - generic [ref=f4e381]:
+                    - generic [aria-hidden] [ref=f4e382]: check_circle
+                    - text: Delivered
+                - cell [ref=f4e383]:
+                  - generic [ref=f4e384]:
+                    - generic [aria-hidden] [ref=f4e385]: check_circle
+                    - text: Delivered within window
+                - cell "—" [ref=f4e386]
+              - row [ref=f4e387] [cursor=pointer]:
+                - cell [ref=f4e388]:
+                  - generic [ref=f4e389]:
+                    - paragraph [ref=f4e390]: Ramya Priya
+                    - paragraph [ref=f4e391]: TN-GC-2026-000021
+                - cell "97163 59662" [ref=f4e392]
+                - cell "Erode" [ref=f4e393]
+                - cell "BATCH-2026-06-0005" [ref=f4e394]
+                - cell [ref=f4e395]:
+                  - generic [ref=f4e396]:
+                    - generic [aria-hidden] [ref=f4e397]: verified
+                    - text: PoD uploaded
+                - cell [ref=f4e398]:
+                  - generic [ref=f4e399]:
+                    - generic [aria-hidden] [ref=f4e400]: check_circle
+                    - text: Delivered within window
+                - cell "—" [ref=f4e401]
+              - row [ref=f4e402] [cursor=pointer]:
+                - cell [ref=f4e403]:
+                  - generic [ref=f4e404]:
+                    - paragraph [ref=f4e405]: Aishwarya V
+                    - paragraph [ref=f4e406]: TN-GC-2026-000022
+                - cell "98233 72592" [ref=f4e407]
+                - cell "Salem" [ref=f4e408]
+                - cell "BATCH-2026-06-0005" [ref=f4e409]
+                - cell [ref=f4e410]:
+                  - generic [ref=f4e411]:
+                    - generic [aria-hidden] [ref=f4e412]: verified
+                    - text: PoD uploaded
+                - cell [ref=f4e413]:
+                  - generic [ref=f4e414]:
+                    - generic [aria-hidden] [ref=f4e415]: check_circle
+                    - text: Delivered within window
+                - cell "—" [ref=f4e416]
+              - row [ref=f4e417] [cursor=pointer]:
+                - cell [ref=f4e418]:
+                  - generic [ref=f4e419]:
+                    - paragraph [ref=f4e420]: Nandhini S
+                    - paragraph [ref=f4e421]: TN-GC-2026-000023
+                - cell "97110 75815" [ref=f4e422]
+                - cell "Thanjavur" [ref=f4e423]
+                - cell "BATCH-2026-06-0005" [ref=f4e424]
+                - cell [ref=f4e425]:
+                  - generic [ref=f4e426]:
+                    - generic [aria-hidden] [ref=f4e427]: check_circle
+                    - text: Delivered
+                - cell [ref=f4e428]:
+                  - generic [ref=f4e429]:
+                    - generic [aria-hidden] [ref=f4e430]: check_circle
+                    - text: Delivered within window
+                - cell "—" [ref=f4e431]
+              - row [ref=f4e432] [cursor=pointer]:
+                - cell [ref=f4e433]:
+                  - generic [ref=f4e434]:
+                    - paragraph [ref=f4e435]: Bala Selvam
+                    - paragraph [ref=f4e436]: TN-GC-2026-000024
+                - cell "94937 55730" [ref=f4e437]
+                - cell "Coimbatore" [ref=f4e438]
+                - cell "BATCH-2026-06-0005" [ref=f4e439]
+                - cell [ref=f4e440]:
+                  - generic [ref=f4e441]:
+                    - generic [aria-hidden] [ref=f4e442]: verified
+                    - text: PoD uploaded
+                - cell [ref=f4e443]:
+                  - generic [ref=f4e444]:
+                    - generic [aria-hidden] [ref=f4e445]: check_circle
+                    - text: Delivered within window
+                - cell "—" [ref=f4e446]
+              - row [ref=f4e447] [cursor=pointer]:
+                - cell [ref=f4e448]:
+                  - generic [ref=f4e449]:
+                    - paragraph [ref=f4e450]: Bhavani V
+                    - paragraph [ref=f4e451]: TN-GC-2026-000025
+                - cell "98973 27583" [ref=f4e452]
+                - cell "Erode" [ref=f4e453]
+                - cell "BATCH-2026-06-0005" [ref=f4e454]
+                - cell [ref=f4e455]:
+                  - generic [ref=f4e456]:
+                    - generic [aria-hidden] [ref=f4e457]: verified
+                    - text: PoD uploaded
+                - cell [ref=f4e458]:
+                  - generic [ref=f4e459]:
+                    - generic [aria-hidden] [ref=f4e460]: check_circle
+                    - text: Delivered within window
+                - cell "GRV-18912" [ref=f4e461]
+          - generic [ref=f4e462]:
+            - generic [ref=f4e463]: Showing 1–25 of 86
+            - generic [ref=f4e464]:
+              - generic [ref=f4e465]:
+                - text: Rows per page
+                - combobox "Rows per page" [ref=f4e466]:
+                  - option "25" [selected]
+                  - option "50"
+                  - option "100"
+              - generic [ref=f4e467]:
+                - button "Previous page" [disabled] [ref=f4e468]:
+                  - generic [aria-hidden] [ref=f4e469]: chevron_left
+                - generic [ref=f4e470]: 1 / 4
+                - button "Next page" [ref=f4e471]:
+                  - generic [aria-hidden] [ref=f4e472]: chevron_right
+  - button "Toggle dev control panel" [ref=f4e474]:
+    - generic [aria-hidden] [ref=f4e475]: build

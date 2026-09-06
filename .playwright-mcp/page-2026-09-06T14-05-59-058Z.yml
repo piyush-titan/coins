@@ -1,0 +1,40 @@
+- generic [ref=f14e4]:
+  - generic [aria-hidden] [ref=f14e6]: verified
+  - heading "Gold Coin Delivery Platform" [level=1] [ref=f14e7]
+  - paragraph [ref=f14e8]: Tamil Nadu Government Gold Coin Scheme — verified delivery and audit trail for Titan Company Limited and TN Government reviewers.
+  - generic [ref=f14e9]:
+    - button [ref=f14e10]:
+      - generic [aria-hidden] [ref=f14e12]: account_balance
+      - heading "Continue as TN Government" [level=2] [ref=f14e13]
+      - paragraph [ref=f14e14]: Social Welfare Department reviewer — view, export, and print access to delivery status, verification outcomes, and grievance cases.
+      - list [ref=f14e15]:
+        - listitem [ref=f14e16]:
+          - generic [aria-hidden] [ref=f14e17]: check_circle
+          - text: Upload and confirm beneficiary batches
+        - listitem [ref=f14e18]:
+          - generic [aria-hidden] [ref=f14e19]: check_circle
+          - text: Track delivery & SLA status statewide
+        - listitem [ref=f14e20]:
+          - generic [aria-hidden] [ref=f14e21]: check_circle
+          - text: View grievance outcomes — no edit access
+      - generic [ref=f14e22]:
+        - text: Continue
+        - generic [aria-hidden] [ref=f14e23]: arrow_forward
+    - button [ref=f14e24]:
+      - generic [aria-hidden] [ref=f14e26]: corporate_fare
+      - heading "Continue as Titan Admin" [level=2] [ref=f14e27]
+      - paragraph [ref=f14e28]: Titan CBG Finance / developer — full view access across every order, batch, reschedule, grievance, and proof-of-delivery document.
+      - list [ref=f14e29]:
+        - listitem [ref=f14e30]:
+          - generic [aria-hidden] [ref=f14e31]: check_circle
+          - text: Full visibility into every batch & order
+        - listitem [ref=f14e32]:
+          - generic [aria-hidden] [ref=f14e33]: check_circle
+          - text: Reporting, reverse lookup & activity log
+        - listitem [ref=f14e34]:
+          - generic [aria-hidden] [ref=f14e35]: check_circle
+          - text: Confirm batches ready for order creation
+      - generic [ref=f14e36]:
+        - text: Continue
+        - generic [aria-hidden] [ref=f14e37]: arrow_forward
+  - paragraph [ref=f14e38]: This is a demo build for internal review. The role switch above and the "Viewing as" control inside the app are demo conveniences only — not a real authentication system.

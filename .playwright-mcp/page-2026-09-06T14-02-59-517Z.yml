@@ -1,0 +1,199 @@
+- generic [ref=f6e3]:
+  - complementary [ref=f6e4]:
+    - generic [ref=f6e5]:
+      - generic [aria-hidden] [ref=f6e7]: verified
+      - generic [ref=f6e8]:
+        - paragraph [ref=f6e9]: Gold Coin Platform
+        - paragraph [ref=f6e10]: Gold Coin Delivery Scheme
+    - navigation [ref=f6e11]:
+      - link "Dashboard" [ref=f6e12] [cursor=pointer]:
+        - /url: /dashboard
+        - generic [aria-hidden] [ref=f6e13]: dashboard
+        - text: Dashboard
+      - link "Batches" [ref=f6e14] [cursor=pointer]:
+        - /url: /batches
+        - generic [aria-hidden] [ref=f6e15]: folder_zip
+        - text: Batches
+      - link "Beneficiaries" [ref=f6e16] [cursor=pointer]:
+        - /url: /beneficiaries
+        - generic [aria-hidden] [ref=f6e17]: groups
+        - text: Beneficiaries
+      - link "Tracking & SLA" [ref=f6e18] [cursor=pointer]:
+        - /url: /tracking
+        - generic [aria-hidden] [ref=f6e19]: local_shipping
+        - text: Tracking & SLA
+      - link "Grievances" [ref=f6e20] [cursor=pointer]:
+        - /url: /grievances
+        - generic [aria-hidden] [ref=f6e21]: support_agent
+        - text: Grievances
+      - link "Reports" [ref=f6e22] [cursor=pointer]:
+        - /url: /reports
+        - generic [aria-hidden] [ref=f6e23]: summarize
+        - text: Reports
+      - link "Contact directory" [ref=f6e24] [cursor=pointer]:
+        - /url: /directory
+        - generic [aria-hidden] [ref=f6e25]: contact_phone
+        - text: Contact directory
+    - link "Settings" [ref=f6e27] [cursor=pointer]:
+      - /url: /settings
+      - generic [aria-hidden] [ref=f6e28]: settings
+      - text: Settings
+  - generic [ref=f6e29]:
+    - banner [ref=f6e30]:
+      - generic [ref=f6e31]:
+        - generic [aria-hidden]: search
+        - textbox "Search beneficiary, mobile, AWB, code…" [ref=f6e32]
+      - generic [ref=f6e33]:
+        - 'button "Viewing as: Titan Admin" [ref=f6e35]':
+          - generic [aria-hidden] [ref=f6e36]: switch_account
+          - generic [ref=f6e37]: "Viewing as:"
+          - text: Titan Admin
+          - generic [aria-hidden] [ref=f6e38]: expand_more
+        - button "Notifications" [ref=f6e40]:
+          - generic [aria-hidden] [ref=f6e41]: notifications
+        - generic [ref=f6e43]:
+          - generic [ref=f6e44]: MB
+          - generic [ref=f6e45]:
+            - paragraph [ref=f6e46]: M. Bharath Kumar
+            - paragraph [ref=f6e47]: Titan CBG Finance
+    - main [ref=f6e48]:
+      - generic [ref=f6e49]:
+        - generic [ref=f6e51]:
+          - heading "Beneficiaries" [level=1] [ref=f6e52]
+          - paragraph [ref=f6e53]: 86 beneficiaries across 5 batches, statewide.
+        - generic [ref=f6e54]:
+          - generic [ref=f6e55]:
+            - generic [ref=f6e56]:
+              - generic [aria-hidden]: search
+              - textbox "Search name, mobile, order ID, AWB…" [ref=f6e57]
+            - generic [ref=f6e58]:
+              - generic [ref=f6e59]: Status
+              - combobox "Status" [ref=f6e60]:
+                - option "All statuses"
+                - option "Pickup requested"
+                - option "Pickup accepted"
+                - option "Shipment picked up"
+                - option "Reached origin hub"
+                - option "Assistant assigned"
+                - option "Out for delivery"
+                - option "Delivered"
+                - option "PoD uploaded"
+                - option "On hold — verification failed"
+                - option "On hold — data error"
+                - option "Rescheduled" [selected]
+                - option "Cancelled"
+            - generic [ref=f6e61]:
+              - generic [ref=f6e62]: SLA
+              - combobox "SLA" [ref=f6e63]:
+                - option "All SLA states" [selected]
+                - option "Within SLA"
+                - option "At risk"
+                - option "Breached"
+            - generic [ref=f6e64]:
+              - generic [ref=f6e65]: District
+              - combobox "District" [ref=f6e66]:
+                - option "All districts" [selected]
+                - option "Chennai"
+                - option "Coimbatore"
+                - option "Dindigul"
+                - option "Erode"
+                - option "Madurai"
+                - option "Nagapattinam"
+                - option "Ramanathapuram"
+                - option "Salem"
+                - option "Thanjavur"
+                - option "The Nilgiris"
+                - option "Tiruchirappalli"
+                - option "Tiruvannamalai"
+                - option "Vellore"
+          - table [ref=f6e68]:
+            - rowgroup [ref=f6e69]:
+              - row [ref=f6e70]:
+                - columnheader [ref=f6e71]:
+                  - button "Beneficiary" [ref=f6e72]:
+                    - text: Beneficiary
+                    - generic [aria-hidden] [ref=f6e73]: unfold_more
+                - columnheader "Mobile" [ref=f6e74]
+                - columnheader [ref=f6e75]:
+                  - button "District" [ref=f6e76]:
+                    - text: District
+                    - generic [aria-hidden] [ref=f6e77]: unfold_more
+                - columnheader [ref=f6e78]:
+                  - button "Batch" [ref=f6e79]:
+                    - text: Batch
+                    - generic [aria-hidden] [ref=f6e80]: unfold_more
+                - columnheader [ref=f6e81]:
+                  - button "Delivery status" [ref=f6e82]:
+                    - text: Delivery status
+                    - generic [aria-hidden] [ref=f6e83]: unfold_more
+                - columnheader "SLA" [ref=f6e84]
+                - columnheader "Grievance" [ref=f6e85]
+            - rowgroup [ref=f6e86]:
+              - row [ref=f6e476] [cursor=pointer]:
+                - cell [ref=f6e477]:
+                  - generic [ref=f6e478]:
+                    - paragraph [ref=f6e479]: Swetha S
+                    - paragraph [ref=f6e480]: TN-GC-2026-000049
+                - cell "97026 22505" [ref=f6e481]
+                - cell "Tiruvannamalai" [ref=f6e482]
+                - cell "BATCH-2026-07-0006" [ref=f6e483]
+                - cell [ref=f6e484]:
+                  - generic [ref=f6e485]:
+                    - generic [aria-hidden] [ref=f6e486]: event_repeat
+                    - text: Rescheduled
+                - cell [ref=f6e487]:
+                  - generic [ref=f6e488]:
+                    - generic [aria-hidden] [ref=f6e489]: event_repeat
+                    - text: Rescheduled — SLA paused
+                - cell "—" [ref=f6e490]
+              - row [ref=f6e491] [cursor=pointer]:
+                - cell [ref=f6e492]:
+                  - generic [ref=f6e493]:
+                    - paragraph [ref=f6e494]: Jeeva M
+                    - paragraph [ref=f6e495]: TN-GC-2026-000084
+                - cell "96961 83438" [ref=f6e496]
+                - cell "Tiruvannamalai" [ref=f6e497]
+                - cell "BATCH-2026-08-0007" [ref=f6e498]
+                - cell [ref=f6e499]:
+                  - generic [ref=f6e500]:
+                    - generic [aria-hidden] [ref=f6e501]: event_repeat
+                    - text: Rescheduled
+                - cell [ref=f6e502]:
+                  - generic [ref=f6e503]:
+                    - generic [aria-hidden] [ref=f6e504]: event_repeat
+                    - text: Rescheduled — SLA paused
+                - cell "—" [ref=f6e505]
+              - row [ref=f6e506] [cursor=pointer]:
+                - cell [ref=f6e507]:
+                  - generic [ref=f6e508]:
+                    - paragraph [ref=f6e509]: Arun M
+                    - paragraph [ref=f6e510]: TN-GC-2026-000085
+                - cell "94353 08926" [ref=f6e511]
+                - cell "Coimbatore" [ref=f6e512]
+                - cell "BATCH-2026-08-0007" [ref=f6e513]
+                - cell [ref=f6e514]:
+                  - generic [ref=f6e515]:
+                    - generic [aria-hidden] [ref=f6e516]: event_repeat
+                    - text: Rescheduled
+                - cell [ref=f6e517]:
+                  - generic [ref=f6e518]:
+                    - generic [aria-hidden] [ref=f6e519]: event_repeat
+                    - text: Rescheduled — SLA paused
+                - cell "—" [ref=f6e520]
+          - generic [ref=f6e462]:
+            - generic [ref=f6e463]: Showing 1–3 of 3
+            - generic [ref=f6e464]:
+              - generic [ref=f6e465]:
+                - text: Rows per page
+                - combobox "Rows per page" [ref=f6e466]:
+                  - option "25" [selected]
+                  - option "50"
+                  - option "100"
+              - generic [ref=f6e467]:
+                - button "Previous page" [disabled] [ref=f6e468]:
+                  - generic [aria-hidden] [ref=f6e469]: chevron_left
+                - generic [ref=f6e470]: 1 / 1
+                - button "Next page" [disabled] [ref=f6e471]:
+                  - generic [aria-hidden] [ref=f6e472]: chevron_right
+  - button "Toggle dev control panel" [ref=f6e474]:
+    - generic [aria-hidden] [ref=f6e475]: build

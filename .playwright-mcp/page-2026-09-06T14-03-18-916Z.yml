@@ -1,0 +1,311 @@
+- generic [ref=f7e3]:
+  - complementary [ref=f7e4]:
+    - generic [ref=f7e5]:
+      - generic [aria-hidden] [ref=f7e7]: verified
+      - generic [ref=f7e8]:
+        - paragraph [ref=f7e9]: Gold Coin Platform
+        - paragraph [ref=f7e10]: Gold Coin Delivery Scheme
+    - navigation [ref=f7e11]:
+      - link "Dashboard" [ref=f7e12] [cursor=pointer]:
+        - /url: /dashboard
+        - generic [aria-hidden] [ref=f7e13]: dashboard
+        - text: Dashboard
+      - link "Batches" [ref=f7e14] [cursor=pointer]:
+        - /url: /batches
+        - generic [aria-hidden] [ref=f7e15]: folder_zip
+        - text: Batches
+      - link "Beneficiaries" [ref=f7e16] [cursor=pointer]:
+        - /url: /beneficiaries
+        - generic [aria-hidden] [ref=f7e17]: groups
+        - text: Beneficiaries
+      - link "Tracking & SLA" [ref=f7e18] [cursor=pointer]:
+        - /url: /tracking
+        - generic [aria-hidden] [ref=f7e19]: local_shipping
+        - text: Tracking & SLA
+      - link "Grievances" [ref=f7e20] [cursor=pointer]:
+        - /url: /grievances
+        - generic [aria-hidden] [ref=f7e21]: support_agent
+        - text: Grievances
+      - link "Reports" [ref=f7e22] [cursor=pointer]:
+        - /url: /reports
+        - generic [aria-hidden] [ref=f7e23]: summarize
+        - text: Reports
+      - link "Contact directory" [ref=f7e24] [cursor=pointer]:
+        - /url: /directory
+        - generic [aria-hidden] [ref=f7e25]: contact_phone
+        - text: Contact directory
+    - link "Settings" [ref=f7e27] [cursor=pointer]:
+      - /url: /settings
+      - generic [aria-hidden] [ref=f7e28]: settings
+      - text: Settings
+  - generic [ref=f7e29]:
+    - banner [ref=f7e30]:
+      - generic [ref=f7e31]:
+        - generic [aria-hidden]: search
+        - textbox "Search beneficiary, mobile, AWB, code…" [ref=f7e32]
+      - generic [ref=f7e33]:
+        - 'button "Viewing as: Titan Admin" [ref=f7e35]':
+          - generic [aria-hidden] [ref=f7e36]: switch_account
+          - generic [ref=f7e37]: "Viewing as:"
+          - text: Titan Admin
+          - generic [aria-hidden] [ref=f7e38]: expand_more
+        - button "Notifications" [ref=f7e40]:
+          - generic [aria-hidden] [ref=f7e41]: notifications
+        - generic [ref=f7e43]:
+          - generic [ref=f7e44]: MB
+          - generic [ref=f7e45]:
+            - paragraph [ref=f7e46]: M. Bharath Kumar
+            - paragraph [ref=f7e47]: Titan CBG Finance
+    - main [ref=f7e48]:
+      - generic [ref=f7e49]:
+        - generic [ref=f7e51]:
+          - heading "SLA tracking" [level=1] [ref=f7e52]
+          - paragraph [ref=f7e53]: Statewide delivery-time compliance, district by district.
+        - generic [ref=f7e54]:
+          - heading "SLA compliance by district" [level=2] [ref=f7e55]
+          - generic [ref=f7e56]:
+            - generic [ref=f7e57]:
+              - generic [ref=f7e58]:
+                - generic [ref=f7e59]: Chennai
+                - generic [ref=f7e60]: 5 beneficiaries
+              - generic [ref=f7e61]:
+                - generic "5 within SLA" [ref=f7e62]
+                - generic "0 at risk"
+                - generic "0 breached"
+            - generic [ref=f7e63]:
+              - generic [ref=f7e64]:
+                - generic [ref=f7e65]: Coimbatore
+                - generic [ref=f7e66]: 7 beneficiaries
+              - generic [ref=f7e67]:
+                - generic "7 within SLA" [ref=f7e68]
+                - generic "0 at risk"
+                - generic "0 breached"
+            - generic [ref=f7e69]:
+              - generic [ref=f7e70]:
+                - generic [ref=f7e71]: Dindigul
+                - generic [ref=f7e72]: 6 beneficiaries
+              - generic [ref=f7e73]:
+                - generic "5 within SLA" [ref=f7e74]
+                - generic "1 at risk" [ref=f7e75]
+                - generic "0 breached"
+            - generic [ref=f7e76]:
+              - generic [ref=f7e77]:
+                - generic [ref=f7e78]: Erode
+                - generic [ref=f7e79]: 6 beneficiaries
+              - generic [ref=f7e80]:
+                - generic "6 within SLA" [ref=f7e81]
+                - generic "0 at risk"
+                - generic "0 breached"
+            - generic [ref=f7e82]:
+              - generic [ref=f7e83]:
+                - generic [ref=f7e84]: Madurai
+                - generic [ref=f7e85]: 3 beneficiaries
+              - generic [ref=f7e86]:
+                - generic "3 within SLA" [ref=f7e87]
+                - generic "0 at risk"
+                - generic "0 breached"
+            - generic [ref=f7e88]:
+              - generic [ref=f7e89]:
+                - generic [ref=f7e90]: Nagapattinam
+                - generic [ref=f7e91]: 6 beneficiaries
+              - generic [ref=f7e92]:
+                - generic "6 within SLA" [ref=f7e93]
+                - generic "0 at risk"
+                - generic "0 breached"
+            - generic [ref=f7e94]:
+              - generic [ref=f7e95]:
+                - generic [ref=f7e96]: Ramanathapuram
+                - generic [ref=f7e97]: 4 beneficiaries
+              - generic [ref=f7e98]:
+                - generic "4 within SLA" [ref=f7e99]
+                - generic "0 at risk"
+                - generic "0 breached"
+            - generic [ref=f7e100]:
+              - generic [ref=f7e101]:
+                - generic [ref=f7e102]: Salem
+                - generic [ref=f7e103]: 9 beneficiaries
+              - generic [ref=f7e104]:
+                - generic "9 within SLA" [ref=f7e105]
+                - generic "0 at risk"
+                - generic "0 breached"
+            - generic [ref=f7e106]:
+              - generic [ref=f7e107]:
+                - generic [ref=f7e108]: Thanjavur
+                - generic [ref=f7e109]: 11 beneficiaries
+              - generic [ref=f7e110]:
+                - generic "11 within SLA" [ref=f7e111]
+                - generic "0 at risk"
+                - generic "0 breached"
+            - generic [ref=f7e112]:
+              - generic [ref=f7e113]:
+                - generic [ref=f7e114]: The Nilgiris
+                - generic [ref=f7e115]: 8 beneficiaries
+              - generic [ref=f7e116]:
+                - generic "4 within SLA" [ref=f7e117]
+                - generic "2 at risk" [ref=f7e118]
+                - generic "2 breached" [ref=f7e119]
+            - generic [ref=f7e120]:
+              - generic [ref=f7e121]:
+                - generic [ref=f7e122]: Tiruchirappalli
+                - generic [ref=f7e123]: 4 beneficiaries
+              - generic [ref=f7e124]:
+                - generic "4 within SLA" [ref=f7e125]
+                - generic "0 at risk"
+                - generic "0 breached"
+            - generic [ref=f7e126]:
+              - generic [ref=f7e127]:
+                - generic [ref=f7e128]: Tiruvannamalai
+                - generic [ref=f7e129]: 10 beneficiaries
+              - generic [ref=f7e130]:
+                - generic "9 within SLA" [ref=f7e131]
+                - generic "0 at risk"
+                - generic "1 breached" [ref=f7e132]
+            - generic [ref=f7e133]:
+              - generic [ref=f7e134]:
+                - generic [ref=f7e135]: Vellore
+                - generic [ref=f7e136]: 7 beneficiaries
+              - generic [ref=f7e137]:
+                - generic "7 within SLA" [ref=f7e138]
+                - generic "0 at risk"
+                - generic "0 breached"
+        - generic [ref=f7e139]:
+          - heading "Needs attention first" [level=2] [ref=f7e140]
+          - generic [ref=f7e141]:
+            - generic [ref=f7e142]: District
+            - combobox "District" [ref=f7e143]:
+              - option "All districts" [selected]
+              - option "Chennai"
+              - option "Coimbatore"
+              - option "Dindigul"
+              - option "Erode"
+              - option "Madurai"
+              - option "Nagapattinam"
+              - option "Ramanathapuram"
+              - option "Salem"
+              - option "Thanjavur"
+              - option "The Nilgiris"
+              - option "Tiruchirappalli"
+              - option "Tiruvannamalai"
+              - option "Vellore"
+        - generic [ref=f7e144]:
+          - generic [ref=f7e146]:
+            - generic [aria-hidden]: search
+            - textbox "Search beneficiary…" [ref=f7e147]
+          - table [ref=f7e149]:
+            - rowgroup [ref=f7e150]:
+              - row [ref=f7e151]:
+                - columnheader [ref=f7e152]:
+                  - button "Beneficiary" [ref=f7e153]:
+                    - text: Beneficiary
+                    - generic [aria-hidden] [ref=f7e154]: unfold_more
+                - columnheader [ref=f7e155]:
+                  - button "District" [ref=f7e156]:
+                    - text: District
+                    - generic [aria-hidden] [ref=f7e157]: unfold_more
+                - columnheader "Delivery status" [ref=f7e158]
+                - columnheader [ref=f7e159]:
+                  - button "SLA" [ref=f7e160]:
+                    - text: SLA
+                    - generic [aria-hidden] [ref=f7e161]: unfold_more
+            - rowgroup [ref=f7e162]:
+              - row [ref=f7e163] [cursor=pointer]:
+                - cell [ref=f7e164]:
+                  - generic [ref=f7e165]:
+                    - paragraph [ref=f7e166]: Saranya Kumari
+                    - paragraph [ref=f7e167]: TN-GC-2026-000041
+                - cell "The Nilgiris" [ref=f7e168]
+                - cell [ref=f7e169]:
+                  - generic [ref=f7e170]:
+                    - generic [aria-hidden] [ref=f7e171]: badge
+                    - text: Assistant assigned
+                - cell [ref=f7e172]:
+                  - generic [ref=f7e173]:
+                    - generic [aria-hidden] [ref=f7e174]: error
+                    - text: Breached by 2 days
+              - row [ref=f7e175] [cursor=pointer]:
+                - cell [ref=f7e176]:
+                  - generic [ref=f7e177]:
+                    - paragraph [ref=f7e178]: Ramya S
+                    - paragraph [ref=f7e179]: TN-GC-2026-000042
+                - cell "The Nilgiris" [ref=f7e180]
+                - cell [ref=f7e181]:
+                  - generic [ref=f7e182]:
+                    - generic [aria-hidden] [ref=f7e183]: local_shipping
+                    - text: Out for delivery
+                - cell [ref=f7e184]:
+                  - generic [ref=f7e185]:
+                    - generic [aria-hidden] [ref=f7e186]: error
+                    - text: Breached by 2 days
+              - row [ref=f7e187] [cursor=pointer]:
+                - cell [ref=f7e188]:
+                  - generic [ref=f7e189]:
+                    - paragraph [ref=f7e190]: Revathi Priya
+                    - paragraph [ref=f7e191]: TN-GC-2026-000043
+                - cell "Tiruvannamalai" [ref=f7e192]
+                - cell [ref=f7e193]:
+                  - generic [ref=f7e194]:
+                    - generic [aria-hidden] [ref=f7e195]: local_shipping
+                    - text: Out for delivery
+                - cell [ref=f7e196]:
+                  - generic [ref=f7e197]:
+                    - generic [aria-hidden] [ref=f7e198]: error
+                    - text: Breached by 2 days
+              - row [ref=f7e199] [cursor=pointer]:
+                - cell [ref=f7e200]:
+                  - generic [ref=f7e201]:
+                    - paragraph [ref=f7e202]: Nandhini Kumari
+                    - paragraph [ref=f7e203]: TN-GC-2026-000044
+                - cell "Dindigul" [ref=f7e204]
+                - cell [ref=f7e205]:
+                  - generic [ref=f7e206]:
+                    - generic [aria-hidden] [ref=f7e207]: badge
+                    - text: Assistant assigned
+                - cell [ref=f7e208]:
+                  - generic [ref=f7e209]:
+                    - generic [aria-hidden] [ref=f7e210]: warning
+                    - text: 1 day left — at risk
+              - row [ref=f7e211] [cursor=pointer]:
+                - cell [ref=f7e212]:
+                  - generic [ref=f7e213]:
+                    - paragraph [ref=f7e214]: Divya R
+                    - paragraph [ref=f7e215]: TN-GC-2026-000045
+                - cell "The Nilgiris" [ref=f7e216]
+                - cell [ref=f7e217]:
+                  - generic [ref=f7e218]:
+                    - generic [aria-hidden] [ref=f7e219]: warehouse
+                    - text: Reached origin hub
+                - cell [ref=f7e220]:
+                  - generic [ref=f7e221]:
+                    - generic [aria-hidden] [ref=f7e222]: warning
+                    - text: 1 day left — at risk
+              - row [ref=f7e223] [cursor=pointer]:
+                - cell [ref=f7e224]:
+                  - generic [ref=f7e225]:
+                    - paragraph [ref=f7e226]: Jeeva Murugan
+                    - paragraph [ref=f7e227]: TN-GC-2026-000046
+                - cell "The Nilgiris" [ref=f7e228]
+                - cell [ref=f7e229]:
+                  - generic [ref=f7e230]:
+                    - generic [aria-hidden] [ref=f7e231]: warehouse
+                    - text: Reached origin hub
+                - cell [ref=f7e232]:
+                  - generic [ref=f7e233]:
+                    - generic [aria-hidden] [ref=f7e234]: warning
+                    - text: 1 day left — at risk
+          - generic [ref=f7e235]:
+            - generic [ref=f7e236]: Showing 1–6 of 6
+            - generic [ref=f7e237]:
+              - generic [ref=f7e238]:
+                - text: Rows per page
+                - combobox "Rows per page" [ref=f7e239]:
+                  - option "25" [selected]
+                  - option "50"
+                  - option "100"
+              - generic [ref=f7e240]:
+                - button "Previous page" [disabled] [ref=f7e241]:
+                  - generic [aria-hidden] [ref=f7e242]: chevron_left
+                - generic [ref=f7e243]: 1 / 1
+                - button "Next page" [disabled] [ref=f7e244]:
+                  - generic [aria-hidden] [ref=f7e245]: chevron_right
+  - button "Toggle dev control panel" [ref=f7e247]:
+    - generic [aria-hidden] [ref=f7e248]: build

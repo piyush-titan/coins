@@ -1,0 +1,188 @@
+- generic [ref=f23e3]:
+  - complementary [ref=f23e4]:
+    - generic [ref=f23e5]:
+      - generic [aria-hidden] [ref=f23e7]: verified
+      - generic [ref=f23e8]:
+        - paragraph [ref=f23e9]: Gold Coin Platform
+        - paragraph [ref=f23e10]: Gold Coin Delivery Scheme
+    - navigation [ref=f23e11]:
+      - link "Dashboard" [ref=f23e12] [cursor=pointer]:
+        - /url: /dashboard
+        - generic [aria-hidden] [ref=f23e13]: dashboard
+        - text: Dashboard
+      - link "Batches" [ref=f23e14] [cursor=pointer]:
+        - /url: /batches
+        - generic [aria-hidden] [ref=f23e15]: folder_zip
+        - text: Batches
+      - link "Beneficiaries" [ref=f23e16] [cursor=pointer]:
+        - /url: /beneficiaries
+        - generic [aria-hidden] [ref=f23e17]: groups
+        - text: Beneficiaries
+      - link "Tracking & SLA" [ref=f23e18] [cursor=pointer]:
+        - /url: /tracking
+        - generic [aria-hidden] [ref=f23e19]: local_shipping
+        - text: Tracking & SLA
+      - link "Grievances" [ref=f23e20] [cursor=pointer]:
+        - /url: /grievances
+        - generic [aria-hidden] [ref=f23e21]: support_agent
+        - text: Grievances
+      - link "Contact directory" [ref=f23e22] [cursor=pointer]:
+        - /url: /directory
+        - generic [aria-hidden] [ref=f23e23]: contact_phone
+        - text: Contact directory
+    - link "Settings" [ref=f23e25] [cursor=pointer]:
+      - /url: /settings
+      - generic [aria-hidden] [ref=f23e26]: settings
+      - text: Settings
+  - generic [ref=f23e27]:
+    - banner [ref=f23e28]:
+      - generic [ref=f23e29]:
+        - generic [aria-hidden]: search
+        - textbox "Search beneficiary, mobile, AWB, code…" [ref=f23e30]
+      - generic [ref=f23e31]:
+        - 'button "Viewing as: TN Government" [ref=f23e33]':
+          - generic [aria-hidden] [ref=f23e34]: switch_account
+          - generic [ref=f23e35]: "Viewing as:"
+          - text: TN Government
+          - generic [aria-hidden] [ref=f23e36]: expand_more
+        - button "Notifications" [ref=f23e38]:
+          - generic [aria-hidden] [ref=f23e39]: notifications
+        - generic [ref=f23e41]:
+          - generic [ref=f23e42]: AV
+          - generic [ref=f23e43]:
+            - paragraph [ref=f23e44]: A. Vasantha Devi
+            - paragraph [ref=f23e45]: TN Govt, Social Welfare
+    - main [ref=f23e46]:
+      - generic [ref=f23e47]:
+        - generic [ref=f23e48]:
+          - generic [ref=f23e49]:
+            - heading "Aishwarya V" [level=1] [ref=f23e50]
+            - paragraph [ref=f23e51]: TN-GC-2026-000082 · Batch BATCH-2026-08-0007 · AWB SEQ5950196801
+          - generic [ref=f23e52]:
+            - generic [ref=f23e53]:
+              - generic [aria-hidden] [ref=f23e54]: gpp_bad
+              - text: On hold — verification failed
+            - button "Print delivery certificate" [ref=f23e55]:
+              - generic [aria-hidden] [ref=f23e56]: print
+              - text: Print delivery certificate
+        - generic [ref=f23e57]:
+          - generic [ref=f23e58]:
+            - generic [ref=f23e59]:
+              - generic [ref=f23e60]:
+                - heading "Delivery pipeline" [level=2] [ref=f23e61]
+                - generic [ref=f23e62]:
+                  - generic [aria-hidden] [ref=f23e63]: check_circle
+                  - text: 3 days left
+              - generic [ref=f23e66]:
+                - generic [ref=f23e67]:
+                  - generic [aria-hidden] [ref=f23e71]: check
+                  - generic [ref=f23e73]: Pickup requested
+                  - generic [ref=f23e74]: 03 Sept 2026, 09:27 am
+                - generic [ref=f23e75]:
+                  - generic [aria-hidden] [ref=f23e79]: check
+                  - generic [ref=f23e81]: Pickup accepted
+                  - generic [ref=f23e82]: 03 Sept 2026, 03:28 pm
+                - generic [ref=f23e83]:
+                  - generic [aria-hidden] [ref=f23e87]: check
+                  - generic [ref=f23e89]: Picked up
+                  - generic [ref=f23e90]: 04 Sept 2026, 09:09 pm
+                - generic [ref=f23e91]:
+                  - generic [aria-hidden] [ref=f23e95]: check
+                  - generic [ref=f23e97]: Reached origin hub
+                  - generic [ref=f23e98]: 05 Sept 2026, 03:07 am
+                - generic [ref=f23e99]:
+                  - generic [aria-hidden] [ref=f23e103]: check
+                  - generic [ref=f23e105]: Delivery assistant assigned
+                  - generic [ref=f23e106]: 06 Sept 2026, 09:15 am
+                - generic [ref=f23e107]:
+                  - generic [aria-hidden] [ref=f23e111]: check
+                  - generic [ref=f23e113]: Out for delivery
+                  - generic [ref=f23e114]: 06 Sept 2026, 03:14 pm
+                - generic [ref=f23e115]:
+                  - generic [aria-hidden] [ref=f23e119]: close
+                  - generic [ref=f23e121]: Delivered
+                - generic [ref=f23e122]:
+                  - generic [aria-hidden] [ref=f23e126]: radio_button_unchecked
+                  - generic [ref=f23e128]: Proof of delivery uploaded
+              - generic [ref=f23e129]:
+                - generic [aria-hidden] [ref=f23e130]: error
+                - text: On hold — identity verification failed at handover. Awaiting resolution from Sequel field operations.
+            - generic [ref=f23e131]:
+              - heading "Identity verification at handover" [level=2] [ref=f23e132]
+              - list [ref=f23e133]:
+                - listitem [ref=f23e134]:
+                  - generic [aria-hidden] [ref=f23e137]: check
+                  - generic [ref=f23e138]:
+                    - paragraph [ref=f23e139]: Aadhaar (last 4 digits)
+                    - paragraph [ref=f23e140]: 06 Sept 2026, 10:00 am
+                - listitem [ref=f23e141]:
+                  - generic [aria-hidden] [ref=f23e144]: check
+                  - generic [ref=f23e145]:
+                    - paragraph [ref=f23e146]: Mobile OTP
+                    - paragraph [ref=f23e147]: 06 Sept 2026, 10:00 am
+                - listitem [ref=f23e148]:
+                  - generic [aria-hidden] [ref=f23e150]: close
+                  - generic [ref=f23e151]:
+                    - paragraph [ref=f23e152]: Unique / voucher code
+                    - paragraph [ref=f23e153]: 06 Sept 2026, 10:00 am
+                    - paragraph [ref=f23e154]: Voucher code entered did not match TN Govt records for this beneficiary.
+            - generic [ref=f23e155]:
+              - heading "Grievance" [level=2] [ref=f23e156]
+              - paragraph [ref=f23e157]: No grievance has been filed for this beneficiary.
+          - generic [ref=f23e158]:
+            - generic [ref=f23e159]:
+              - heading "Beneficiary details" [level=2] [ref=f23e160]
+              - generic [ref=f23e161]:
+                - generic [ref=f23e162]:
+                  - term [ref=f23e163]: Primary mobile
+                  - definition [ref=f23e164]: 96449 57296
+                - generic [ref=f23e165]:
+                  - term [ref=f23e166]: Alternate mobile
+                  - definition [ref=f23e167]: 98858 24504
+                - generic [ref=f23e168]:
+                  - term [ref=f23e169]: Aadhaar (last 4)
+                  - definition [ref=f23e170]: XXXX-XXXX-7202
+                - generic [ref=f23e171]:
+                  - term [ref=f23e172]: Unique / voucher code
+                  - definition [ref=f23e173]: TNGC764419
+                - generic [ref=f23e174]:
+                  - term [ref=f23e175]: SLA window
+                  - definition [ref=f23e176]: 7 days from 03 Sept 2026
+            - generic [ref=f23e177]:
+              - heading "Delivery address" [level=2] [ref=f23e178]
+              - generic [ref=f23e179]: 22, Sri FlatsGandhi Street, New ColonyParamakudi, ThanjavurThanjavur — 625864
+            - generic [ref=f23e180]:
+              - heading "Status history" [level=2] [ref=f23e181]
+              - list [ref=f23e182]:
+                - listitem [ref=f23e183]:
+                  - generic [ref=f23e184]:
+                    - generic [aria-hidden] [ref=f23e185]: local_shipping
+                    - text: Out for delivery
+                  - generic [ref=f23e186]: 06 Sept 2026, 03:14 pm
+                - listitem [ref=f23e187]:
+                  - generic [ref=f23e188]:
+                    - generic [aria-hidden] [ref=f23e189]: badge
+                    - text: Assistant assigned
+                  - generic [ref=f23e190]: 06 Sept 2026, 09:15 am
+                - listitem [ref=f23e191]:
+                  - generic [ref=f23e192]:
+                    - generic [aria-hidden] [ref=f23e193]: warehouse
+                    - text: Reached origin hub
+                  - generic [ref=f23e194]: 05 Sept 2026, 03:07 am
+                - listitem [ref=f23e195]:
+                  - generic [ref=f23e196]:
+                    - generic [aria-hidden] [ref=f23e197]: inventory_2
+                    - text: Shipment picked up
+                  - generic [ref=f23e198]: 04 Sept 2026, 09:09 pm
+                - listitem [ref=f23e199]:
+                  - generic [ref=f23e200]:
+                    - generic [aria-hidden] [ref=f23e201]: task_alt
+                    - text: Pickup accepted
+                  - generic [ref=f23e202]: 03 Sept 2026, 03:28 pm
+                - listitem [ref=f23e203]:
+                  - generic [ref=f23e204]:
+                    - generic [aria-hidden] [ref=f23e205]: schedule_send
+                    - text: Pickup requested
+                  - generic [ref=f23e206]: 03 Sept 2026, 09:27 am
+  - button "Toggle dev control panel" [ref=f23e208]:
+    - generic [aria-hidden] [ref=f23e209]: build

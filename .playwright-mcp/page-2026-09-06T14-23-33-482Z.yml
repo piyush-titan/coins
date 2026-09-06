@@ -1,0 +1,239 @@
+- generic [active] [ref=f1e1]:
+  - generic [ref=f1e3]:
+    - complementary [ref=f1e5]:
+      - generic [ref=f1e6]:
+        - generic [aria-hidden] [ref=f1e8]: verified
+        - generic [ref=f1e9]:
+          - paragraph [ref=f1e10]: Gold Coin Platform
+          - paragraph [ref=f1e11]: Gold Coin Delivery Scheme
+      - navigation [ref=f1e12]:
+        - link "Dashboard" [ref=f1e13] [cursor=pointer]:
+          - /url: /dashboard
+          - generic [aria-hidden] [ref=f1e14]: dashboard
+          - text: Dashboard
+        - link "Batches" [ref=f1e15] [cursor=pointer]:
+          - /url: /batches
+          - generic [aria-hidden] [ref=f1e16]: folder_zip
+          - text: Batches
+        - link "Beneficiaries" [ref=f1e17] [cursor=pointer]:
+          - /url: /beneficiaries
+          - generic [aria-hidden] [ref=f1e18]: groups
+          - text: Beneficiaries
+        - link "Tracking & SLA" [ref=f1e19] [cursor=pointer]:
+          - /url: /tracking
+          - generic [aria-hidden] [ref=f1e20]: local_shipping
+          - text: Tracking & SLA
+        - link "Grievances" [ref=f1e21] [cursor=pointer]:
+          - /url: /grievances
+          - generic [aria-hidden] [ref=f1e22]: support_agent
+          - text: Grievances
+        - link "Contact directory" [ref=f1e23] [cursor=pointer]:
+          - /url: /directory
+          - generic [aria-hidden] [ref=f1e24]: contact_phone
+          - text: Contact directory
+      - link "Settings" [ref=f1e26] [cursor=pointer]:
+        - /url: /settings
+        - generic [aria-hidden] [ref=f1e27]: settings
+        - text: Settings
+    - generic [ref=f1e28]:
+      - banner [ref=f1e30]:
+        - generic [ref=f1e31]:
+          - generic [aria-hidden]: search
+          - textbox "Search beneficiary, mobile, AWB, code…" [ref=f1e32]
+        - generic [ref=f1e33]:
+          - 'button "Viewing as: TN Government" [ref=f1e35]':
+            - generic [aria-hidden] [ref=f1e36]: switch_account
+            - generic [ref=f1e37]: "Viewing as:"
+            - text: TN Government
+            - generic [aria-hidden] [ref=f1e38]: expand_more
+          - button "Notifications" [ref=f1e40]:
+            - generic [aria-hidden] [ref=f1e41]: notifications
+          - generic [ref=f1e43]:
+            - generic [ref=f1e44]: AV
+            - generic [ref=f1e45]:
+              - paragraph [ref=f1e46]: A. Vasantha Devi
+              - paragraph [ref=f1e47]: TN Govt, Social Welfare
+      - main [ref=f1e48]:
+        - generic [ref=f1e49]:
+          - generic [ref=f1e50]:
+            - generic [ref=f1e51]:
+              - heading "TN Government overview" [level=1] [ref=f1e52]
+              - paragraph [ref=f1e53]: A statewide snapshot of every gold coin delivery cycle currently in motion.
+            - button "Upload new batch" [ref=f1e55]:
+              - generic [aria-hidden] [ref=f1e56]: upload_file
+              - text: Upload new batch
+          - generic [ref=f1e57]:
+            - button "Total beneficiaries 3 3 active batches" [disabled] [ref=f1e58]:
+              - generic [ref=f1e59]:
+                - generic [ref=f1e60]: Total beneficiaries
+                - generic [aria-hidden] [ref=f1e62]: groups
+              - generic [ref=f1e63]:
+                - generic [ref=f1e64]: "3"
+                - generic [ref=f1e65]:
+                  - generic [aria-hidden] [ref=f1e66]: trending_up
+                  - text: 3 active batches
+            - button "Delivered 1 36% of total" [disabled] [ref=f1e67]:
+              - generic [ref=f1e68]:
+                - generic [ref=f1e69]: Delivered
+                - generic [aria-hidden] [ref=f1e71]: check_circle
+              - generic [ref=f1e72]:
+                - generic [ref=f1e73]: "1"
+                - generic [ref=f1e74]:
+                  - generic [aria-hidden] [ref=f1e75]: trending_up
+                  - text: 36% of total
+            - button "In progress 2" [disabled] [ref=f1e76]:
+              - generic [ref=f1e77]:
+                - generic [ref=f1e78]: In progress
+                - generic [aria-hidden] [ref=f1e80]: local_shipping
+              - generic [ref=f1e81]: "2"
+            - button "At-risk / breached 0 needs attention" [disabled] [ref=f1e83]:
+              - generic [ref=f1e84]:
+                - generic [ref=f1e85]: At-risk / breached
+                - generic [aria-hidden] [ref=f1e87]: warning
+              - generic [ref=f1e88]:
+                - generic [ref=f1e89]: "0"
+                - generic [ref=f1e90]:
+                  - generic [aria-hidden] [ref=f1e91]: trending_down
+                  - text: needs attention
+          - generic [ref=f1e92]:
+            - generic [ref=f1e93]:
+              - generic [ref=f1e94]:
+                - generic [ref=f1e95]:
+                  - heading "SLA breakdown" [level=2] [ref=f1e96]
+                  - paragraph [ref=f1e97]: Every beneficiary across every active batch, by SLA state.
+                - button "View full breakdown" [ref=f1e98]:
+                  - text: View full breakdown
+                  - generic [aria-hidden] [ref=f1e99]: arrow_forward
+              - generic [ref=f1e100]:
+                - application [ref=f1e104]
+                - generic [ref=f1e105]:
+                  - generic [ref=f1e106]:
+                    - generic [ref=f1e107]: Within SLA
+                    - generic [ref=f1e109]: "80"
+                  - generic [ref=f1e110]:
+                    - generic [ref=f1e111]: At risk
+                    - generic [ref=f1e113]: "3"
+                  - generic [ref=f1e114]:
+                    - generic [ref=f1e115]: Breached
+                    - generic [ref=f1e117]: "3"
+            - generic [ref=f1e118]:
+              - generic [ref=f1e119]:
+                - heading "Verification checklist" [level=2] [ref=f1e120]
+                - paragraph [ref=f1e121]: Live proportion of beneficiaries passing all 3 identity checks at handover.
+                - generic [ref=f1e123]:
+                  - generic "Fully verified" [ref=f1e124]
+                  - generic "Verification failed" [ref=f1e125]
+                  - generic "Not yet attempted" [ref=f1e126]
+                - generic [ref=f1e127]:
+                  - generic [ref=f1e128]:
+                    - paragraph [ref=f1e129]: "33"
+                    - paragraph [ref=f1e130]: Verified
+                  - generic [ref=f1e131]:
+                    - paragraph [ref=f1e132]: "3"
+                    - paragraph [ref=f1e133]: Failed
+                  - generic [ref=f1e134]:
+                    - paragraph [ref=f1e135]: "50"
+                    - paragraph [ref=f1e136]: Pending
+              - generic [ref=f1e137]:
+                - heading "Recent activity" [level=2] [ref=f1e138]
+                - list [ref=f1e139]:
+                  - listitem [ref=f1e140]:
+                    - generic [aria-hidden] [ref=f1e142]: event_repeat
+                    - generic [ref=f1e143]:
+                      - paragraph [ref=f1e144]: Priya S (TN-GC-2026-000085) → Rescheduled
+                      - paragraph [ref=f1e145]: just now
+                  - listitem [ref=f1e146]:
+                    - generic [aria-hidden] [ref=f1e148]: verified
+                    - generic [ref=f1e149]:
+                      - paragraph [ref=f1e150]: Iniyan Kumari (TN-GC-2026-000079) → PoD uploaded
+                      - paragraph [ref=f1e151]: just now
+                  - listitem [ref=f1e152]:
+                    - generic [aria-hidden] [ref=f1e154]: verified
+                    - generic [ref=f1e155]:
+                      - paragraph [ref=f1e156]: Nandhini M (TN-GC-2026-000081) → PoD uploaded
+                      - paragraph [ref=f1e157]: just now
+                  - listitem [ref=f1e158]:
+                    - generic [aria-hidden] [ref=f1e160]: check_circle
+                    - generic [ref=f1e161]:
+                      - paragraph [ref=f1e162]: Swetha S (TN-GC-2026-000080) → Delivered
+                      - paragraph [ref=f1e163]: just now
+                  - listitem [ref=f1e164]:
+                    - generic [aria-hidden] [ref=f1e166]: check_circle
+                    - generic [ref=f1e167]:
+                      - paragraph [ref=f1e168]: Bhavani Kumari (TN-GC-2026-000078) → Delivered
+                      - paragraph [ref=f1e169]: just now
+                  - listitem [ref=f1e170]:
+                    - generic [aria-hidden] [ref=f1e172]: event_repeat
+                    - generic [ref=f1e173]:
+                      - paragraph [ref=f1e174]: Saranya K (TN-GC-2026-000084) → Rescheduled
+                      - paragraph [ref=f1e175]: just now
+                  - listitem [ref=f1e176]:
+                    - generic [aria-hidden] [ref=f1e178]: local_shipping
+                    - generic [ref=f1e179]:
+                      - paragraph [ref=f1e180]: Shalini Kumari (TN-GC-2026-000055) → Out for delivery
+                      - paragraph [ref=f1e181]: 5h ago
+                  - listitem [ref=f1e182]:
+                    - generic [aria-hidden] [ref=f1e184]: local_shipping
+                    - generic [ref=f1e185]:
+                      - paragraph [ref=f1e186]: Revathi Selvam (TN-GC-2026-000086) → Out for delivery
+                      - paragraph [ref=f1e187]: 5h ago
+          - generic [ref=f1e188]:
+            - heading "Delivery status funnel" [level=2] [ref=f1e189]
+            - paragraph [ref=f1e190]: Beneficiaries currently at each stage of Sequel's delivery pipeline.
+            - application [ref=f1e194]:
+              - generic [ref=f1e205]:
+                - generic [ref=f1e206]:
+                  - generic [ref=f1e207]: Pickup requested
+                  - generic [ref=f1e209]: Pickup accepted
+                  - generic [ref=f1e211]: Shipment picked up
+                  - generic [ref=f1e213]: Reached origin hub
+                  - generic [ref=f1e215]: Assistant assigned
+                  - generic [ref=f1e217]: Out for delivery
+                  - generic [ref=f1e219]: Delivered
+                  - generic [ref=f1e221]: PoD uploaded
+                - generic [ref=f1e223]:
+                  - generic [ref=f1e224]: "0"
+                  - generic [ref=f1e226]: "5"
+                  - generic [ref=f1e228]: "10"
+                  - generic [ref=f1e230]: "15"
+                  - generic [ref=f1e232]: "20"
+          - generic [ref=f1e234]:
+            - generic [ref=f1e235]:
+              - heading "Batch status at a glance" [level=2] [ref=f1e236]
+              - button "View all batches" [ref=f1e237]:
+                - text: View all batches
+                - generic [aria-hidden] [ref=f1e238]: arrow_forward
+            - generic [ref=f1e239]:
+              - button "BATCH-2026-06-0005 Confirmed 28 records · SLA 7-day" [ref=f1e240]:
+                - generic [ref=f1e241]: BATCH-2026-06-0005
+                - generic [ref=f1e242]:
+                  - generic [aria-hidden] [ref=f1e243]: verified
+                  - text: Confirmed
+                - generic [ref=f1e244]: 28 records · SLA 7-day
+              - button "BATCH-2026-07-0006 Confirmed 22 records · SLA 14-day" [ref=f1e245]:
+                - generic [ref=f1e246]: BATCH-2026-07-0006
+                - generic [ref=f1e247]:
+                  - generic [aria-hidden] [ref=f1e248]: verified
+                  - text: Confirmed
+                - generic [ref=f1e249]: 22 records · SLA 14-day
+              - button "BATCH-2026-08-0007 Confirmed 38 records · SLA mixed" [ref=f1e250]:
+                - generic [ref=f1e251]: BATCH-2026-08-0007
+                - generic [ref=f1e252]:
+                  - generic [aria-hidden] [ref=f1e253]: verified
+                  - text: Confirmed
+                - generic [ref=f1e254]: 38 records · SLA mixed
+              - button "BATCH-2026-08-0008 Has errors 15 records · SLA 7-day" [ref=f1e255]:
+                - generic [ref=f1e256]: BATCH-2026-08-0008
+                - generic [ref=f1e257]:
+                  - generic [aria-hidden] [ref=f1e258]: report
+                  - text: Has errors
+                - generic [ref=f1e259]: 15 records · SLA 7-day
+              - button "BATCH-2026-09-0009 Validation pending 45 records · SLA 7-day" [ref=f1e260]:
+                - generic [ref=f1e261]: BATCH-2026-09-0009
+                - generic [ref=f1e262]:
+                  - generic [aria-hidden] [ref=f1e263]: hourglass_top
+                  - text: Validation pending
+                - generic [ref=f1e264]: 45 records · SLA 7-day
+    - button "Toggle dev control panel" [ref=f1e267]:
+      - generic [aria-hidden] [ref=f1e268]: build
+  - generic [aria-hidden] [ref=f1e269]: "0"

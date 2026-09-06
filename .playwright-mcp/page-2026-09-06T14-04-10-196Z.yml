@@ -1,0 +1,145 @@
+- generic [ref=f10e3]:
+  - complementary [ref=f10e4]:
+    - generic [ref=f10e5]:
+      - generic [aria-hidden] [ref=f10e7]: verified
+      - generic [ref=f10e8]:
+        - paragraph [ref=f10e9]: Gold Coin Platform
+        - paragraph [ref=f10e10]: Gold Coin Delivery Scheme
+    - navigation [ref=f10e11]:
+      - link "Dashboard" [ref=f10e12] [cursor=pointer]:
+        - /url: /dashboard
+        - generic [aria-hidden] [ref=f10e13]: dashboard
+        - text: Dashboard
+      - link "Batches" [ref=f10e14] [cursor=pointer]:
+        - /url: /batches
+        - generic [aria-hidden] [ref=f10e15]: folder_zip
+        - text: Batches
+      - link "Beneficiaries" [ref=f10e16] [cursor=pointer]:
+        - /url: /beneficiaries
+        - generic [aria-hidden] [ref=f10e17]: groups
+        - text: Beneficiaries
+      - link "Tracking & SLA" [ref=f10e18] [cursor=pointer]:
+        - /url: /tracking
+        - generic [aria-hidden] [ref=f10e19]: local_shipping
+        - text: Tracking & SLA
+      - link "Grievances" [ref=f10e20] [cursor=pointer]:
+        - /url: /grievances
+        - generic [aria-hidden] [ref=f10e21]: support_agent
+        - text: Grievances
+      - link "Contact directory" [ref=f10e22] [cursor=pointer]:
+        - /url: /directory
+        - generic [aria-hidden] [ref=f10e23]: contact_phone
+        - text: Contact directory
+    - link "Settings" [ref=f10e25] [cursor=pointer]:
+      - /url: /settings
+      - generic [aria-hidden] [ref=f10e26]: settings
+      - text: Settings
+  - generic [ref=f10e27]:
+    - banner [ref=f10e28]:
+      - generic [ref=f10e29]:
+        - generic [aria-hidden]: search
+        - textbox "Search beneficiary, mobile, AWB, code…" [ref=f10e30]
+      - generic [ref=f10e31]:
+        - 'button "Viewing as: TN Government" [ref=f10e33]':
+          - generic [aria-hidden] [ref=f10e34]: switch_account
+          - generic [ref=f10e35]: "Viewing as:"
+          - text: TN Government
+          - generic [aria-hidden] [ref=f10e36]: expand_more
+        - button "Notifications" [ref=f10e38]:
+          - generic [aria-hidden] [ref=f10e39]: notifications
+        - generic [ref=f10e41]:
+          - generic [ref=f10e42]: AV
+          - generic [ref=f10e43]:
+            - paragraph [ref=f10e44]: A. Vasantha Devi
+            - paragraph [ref=f10e45]: TN Govt, Social Welfare
+    - main [ref=f10e46]:
+      - generic [ref=f10e47]:
+        - generic [ref=f10e49]:
+          - heading "Contact directory" [level=1] [ref=f10e50]
+          - paragraph [ref=f10e51]: Key contacts across TN Government, Titan, and Sequel logistics.
+        - generic [ref=f10e52]:
+          - button "All organizations" [ref=f10e53]
+          - button "TN Govt" [ref=f10e54]
+          - button "Titan" [ref=f10e55]
+          - button "Sequel" [ref=f10e56]
+        - generic [ref=f10e57]:
+          - generic [ref=f10e58]:
+            - generic [ref=f10e59]:
+              - generic [ref=f10e60]:
+                - paragraph [ref=f10e61]: R. Kalaiselvi (placeholder)
+                - paragraph [ref=f10e62]: CBG Finance Lead
+              - generic [ref=f10e63]: Titan
+            - button "9840012345" [ref=f10e64]:
+              - generic [aria-hidden] [ref=f10e65]: call
+              - text: "9840012345"
+              - generic [aria-hidden] [ref=f10e66]: content_copy
+            - button "kalaiselvi.r@titan-placeholder.com" [ref=f10e67]:
+              - generic [aria-hidden] [ref=f10e68]: mail
+              - text: kalaiselvi.r@titan-placeholder.com
+              - generic [aria-hidden] [ref=f10e69]: content_copy
+            - paragraph [ref=f10e70]: (placeholder contact — real directory pending confirmation)
+          - generic [ref=f10e71]:
+            - generic [ref=f10e72]:
+              - generic [ref=f10e73]:
+                - paragraph [ref=f10e74]: M. Bharath Kumar (placeholder)
+                - paragraph [ref=f10e75]: Platform Developer / Support
+              - generic [ref=f10e76]: Titan
+            - button "9840012346" [ref=f10e77]:
+              - generic [aria-hidden] [ref=f10e78]: call
+              - text: "9840012346"
+              - generic [aria-hidden] [ref=f10e79]: content_copy
+            - button "bharath.k@titan-placeholder.com" [ref=f10e80]:
+              - generic [aria-hidden] [ref=f10e81]: mail
+              - text: bharath.k@titan-placeholder.com
+              - generic [aria-hidden] [ref=f10e82]: content_copy
+            - paragraph [ref=f10e83]: (placeholder contact — real directory pending confirmation)
+          - generic [ref=f10e84]:
+            - generic [ref=f10e85]:
+              - generic [ref=f10e86]:
+                - paragraph [ref=f10e87]: A. Vasantha Devi (placeholder)
+                - paragraph [ref=f10e88]: Social Welfare Dept. Coordinator
+              - generic [ref=f10e89]: TN Govt
+            - button "9445567890" [ref=f10e90]:
+              - generic [aria-hidden] [ref=f10e91]: call
+              - text: "9445567890"
+              - generic [aria-hidden] [ref=f10e92]: content_copy
+            - button "vasantha.devi@tngovt-placeholder.in" [ref=f10e93]:
+              - generic [aria-hidden] [ref=f10e94]: mail
+              - text: vasantha.devi@tngovt-placeholder.in
+              - generic [aria-hidden] [ref=f10e95]: content_copy
+            - paragraph [ref=f10e96]: (placeholder contact — real directory pending confirmation)
+          - generic [ref=f10e97]:
+            - generic [ref=f10e98]:
+              - generic [ref=f10e99]:
+                - paragraph [ref=f10e100]: S. Muthu Raman (placeholder)
+                - paragraph [ref=f10e101]: District Nodal Officer
+              - generic [ref=f10e102]: TN Govt
+            - button "9445567891" [ref=f10e103]:
+              - generic [aria-hidden] [ref=f10e104]: call
+              - text: "9445567891"
+              - generic [aria-hidden] [ref=f10e105]: content_copy
+            - paragraph [ref=f10e106]: (placeholder contact — real directory pending confirmation)
+          - generic [ref=f10e107]:
+            - generic [ref=f10e108]:
+              - generic [ref=f10e109]:
+                - paragraph [ref=f10e110]: Sequel Logistics Helpdesk (placeholder)
+                - paragraph [ref=f10e111]: Delivery Operations Helpline
+              - generic [ref=f10e112]: Sequel
+            - button "1800120456" [ref=f10e113]:
+              - generic [aria-hidden] [ref=f10e114]: call
+              - text: "1800120456"
+              - generic [aria-hidden] [ref=f10e115]: content_copy
+            - paragraph [ref=f10e116]: (placeholder contact — real directory pending confirmation)
+          - generic [ref=f10e117]:
+            - generic [ref=f10e118]:
+              - generic [ref=f10e119]:
+                - paragraph [ref=f10e120]: K. Deepak Raj (placeholder)
+                - paragraph [ref=f10e121]: Sequel Regional Coordinator
+              - generic [ref=f10e122]: Sequel
+            - button "9600011223" [ref=f10e123]:
+              - generic [aria-hidden] [ref=f10e124]: call
+              - text: "9600011223"
+              - generic [aria-hidden] [ref=f10e125]: content_copy
+            - paragraph [ref=f10e126]: (placeholder contact — real directory pending confirmation)
+  - button "Toggle dev control panel" [ref=f10e128]:
+    - generic [aria-hidden] [ref=f10e129]: build

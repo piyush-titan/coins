@@ -1,0 +1,40 @@
+- generic [ref=e4]:
+  - generic [aria-hidden] [ref=e6]: verified
+  - heading "Gold Coin Delivery Platform" [level=1] [ref=e7]
+  - paragraph [ref=e8]: Tamil Nadu Government Gold Coin Scheme — verified delivery and audit trail for Titan Company Limited and TN Government reviewers.
+  - generic [ref=e9]:
+    - button [ref=e10]:
+      - generic [aria-hidden] [ref=e12]: account_balance
+      - heading "Continue as TN Government" [level=2] [ref=e13]
+      - paragraph [ref=e14]: Social Welfare Department reviewer — view, export, and print access to delivery status, verification outcomes, and grievance cases.
+      - list [ref=e15]:
+        - listitem [ref=e16]:
+          - generic [aria-hidden] [ref=e17]: check_circle
+          - text: Upload and confirm beneficiary batches
+        - listitem [ref=e18]:
+          - generic [aria-hidden] [ref=e19]: check_circle
+          - text: Track delivery & SLA status statewide
+        - listitem [ref=e20]:
+          - generic [aria-hidden] [ref=e21]: check_circle
+          - text: View grievance outcomes — no edit access
+      - generic [ref=e22]:
+        - text: Continue
+        - generic [aria-hidden] [ref=e23]: arrow_forward
+    - button [ref=e24]:
+      - generic [aria-hidden] [ref=e26]: corporate_fare
+      - heading "Continue as Titan Admin" [level=2] [ref=e27]
+      - paragraph [ref=e28]: Titan CBG Finance / developer — full view access across every order, batch, reschedule, grievance, and proof-of-delivery document.
+      - list [ref=e29]:
+        - listitem [ref=e30]:
+          - generic [aria-hidden] [ref=e31]: check_circle
+          - text: Full visibility into every batch & order
+        - listitem [ref=e32]:
+          - generic [aria-hidden] [ref=e33]: check_circle
+          - text: Reporting, reverse lookup & activity log
+        - listitem [ref=e34]:
+          - generic [aria-hidden] [ref=e35]: check_circle
+          - text: Confirm batches ready for order creation
+      - generic [ref=e36]:
+        - text: Continue
+        - generic [aria-hidden] [ref=e37]: arrow_forward
+  - paragraph [ref=e38]: This is a demo build for internal review. The role switch above and the "Viewing as" control inside the app are demo conveniences only — not a real authentication system.
